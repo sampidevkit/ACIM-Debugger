@@ -6,14 +6,142 @@
 	(paper "A4")
 	(title_block
 		(title "PROGRAMMER & DEBUGGER")
-		(date "2024-02-18")
-		(rev "0.0")
+		(date "2024-07-17")
+		(rev "0.1")
 		(company "TON DUC THANG UNIVERSITY")
 		(comment 1 "Schematic Designed by ...")
 		(comment 2 "PCB Designed by ...")
 		(comment 3 "Approved by ...")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "SAMPI:SCREWHOLDER"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "SH1"
+				(at 2.54 -2.5399 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SCREW HOLDER"
+				(at 2.54 -5.0799 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Liem:HOLDER-3MM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SCREWHOLDER_1_1"
+				(polyline
+					(pts
+						(xy -0.508 -5.588) (xy 0.508 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -4.826) (xy 0.508 -4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -4.064) (xy 0.508 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -3.302) (xy 0.508 -2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -2.54) (xy -0.635 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.27) (xy 1.905 -1.27) (xy 1.905 -2.54) (xy 0.635 -2.54) (xy 0.635 -5.715) (xy 0 -6.35)
+						(xy -0.635 -5.715) (xy -0.635 -2.54) (xy -1.905 -2.54) (xy -1.905 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+	)
 	(polyline
 		(pts
 			(xy 57.15 53.34) (xy 58.42 54.61)
@@ -83,16 +211,6 @@
 			(type default)
 		)
 		(uuid "347017f2-e26e-47fd-9fdb-9c5da67b3504")
-	)
-	(polyline
-		(pts
-			(xy 176.53 106.68) (xy 177.8 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "365b087b-646b-41f9-8ada-b767cd4f7834")
 	)
 	(wire
 		(pts
@@ -514,16 +632,6 @@
 		)
 		(uuid "c4d6777b-bb0e-4b4c-b270-cb76379b7892")
 	)
-	(polyline
-		(pts
-			(xy 179.07 106.68) (xy 177.8 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca7c0f15-7369-45de-b1bb-c488970673ec")
-	)
 	(wire
 		(pts
 			(xy 111.76 74.93) (xy 109.22 77.47)
@@ -674,16 +782,6 @@
 		)
 		(uuid "f97f0864-886f-4da8-b33f-2cfaa3e7312a")
 	)
-	(polyline
-		(pts
-			(xy 177.8 105.41) (xy 177.8 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff77e912-7251-4024-a0e0-d58d0530dab8")
-	)
 	(text_box "PC"
 		(exclude_from_sim no)
 		(at 50.8 50.165 0)
@@ -822,6 +920,326 @@
 			(justify right bottom)
 		)
 		(uuid "d4a06745-7ea8-42c4-aba8-a21180ee27a6")
+	)
+	(symbol
+		(lib_id "SAMPI:SCREWHOLDER")
+		(at 95.25 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "12c81fba-a6c8-4dde-a33b-5b3e34e8bea6")
+		(property "Reference" "SH4"
+			(at 93.98 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SCREW HOLDER"
+			(at 97.79 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SAMPI:SCREWHOLE-2.5M"
+			(at 95.25 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "HW.ACIM-DBG"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
+					(reference "SH4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SAMPI:SCREWHOLDER")
+		(at 76.2 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "95f149ad-827a-48dc-a18e-08cd2fa43fce")
+		(property "Reference" "SH1"
+			(at 74.93 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SCREW HOLDER"
+			(at 78.74 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SAMPI:SCREWHOLE-2.5M"
+			(at 76.2 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
+					(reference "SH1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SAMPI:SCREWHOLDER")
+		(at 82.55 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "9615ae06-58c9-424c-9eb9-9fd9573636ba")
+		(property "Reference" "SH2"
+			(at 81.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SCREW HOLDER"
+			(at 85.09 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SAMPI:SCREWHOLE-2.5M"
+			(at 82.55 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "HW.ACIM-DBG"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
+					(reference "SH2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SAMPI:SCREWHOLDER")
+		(at 88.9 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "a55496fe-8694-438d-843c-7a90edc81d58")
+		(property "Reference" "SH3"
+			(at 87.63 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SCREW HOLDER"
+			(at 91.44 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SAMPI:SCREWHOLE-2.5M"
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "HW.ACIM-DBG"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
+					(reference "SH3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SAMPI:SCREWHOLDER")
+		(at 101.6 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c48296a7-3dba-4732-b87a-67128843ddef")
+		(property "Reference" "SH5"
+			(at 100.33 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SCREW HOLDER"
+			(at 104.14 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SAMPI:SCREWHOLE-2.5M"
+			(at 101.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "HW.ACIM-DBG"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
+					(reference "SH5")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(sheet
 		(at 76.2 40.64)
@@ -1007,6 +1425,44 @@
 			(project "HW.ACIM-DBG"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 158.75 40.64)
+		(size 25.4 44.45)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 150 255 150 1.0000)
+		)
+		(uuid "7841027b-1b24-4ce5-b83f-4492be0c1803")
+		(property "Sheetname" "AC-DC Adapter"
+			(at 158.75 37.465 0)
+			(effects
+				(font
+					(size 1.5 1.5)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ACDCAdapter.kicad_sch"
+			(at 158.75 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HW.ACIM-DBG"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
+					(page "4")
 				)
 			)
 		)
