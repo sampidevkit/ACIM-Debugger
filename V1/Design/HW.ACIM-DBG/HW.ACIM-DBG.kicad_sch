@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "PROGRAMMER & DEBUGGER")
-		(date "2024-07-17")
+		(date "2024-12-04")
 		(rev "0.1")
 		(company "TON DUC THANG UNIVERSITY")
 		(comment 1 "Schematic Designed by ...")
@@ -142,6 +142,140 @@
 			)
 		)
 	)
+	(no_connect
+		(at 76.2 66.04)
+		(uuid "075ef565-43e5-4d26-9c1f-5474772ee049")
+	)
+	(no_connect
+		(at 158.75 92.71)
+		(uuid "0e5c456e-2ae9-4d5b-94f4-b2518c1ca96b")
+	)
+	(no_connect
+		(at 143.51 63.5)
+		(uuid "0fe49287-0fdc-48bd-8db8-ae1e266dd21c")
+	)
+	(no_connect
+		(at 158.75 97.79)
+		(uuid "1bbfa9ea-88c3-430c-8e74-2d3418f14534")
+	)
+	(no_connect
+		(at 158.75 102.87)
+		(uuid "21246af3-af8c-457f-a1bc-a9f0de1a16bf")
+	)
+	(no_connect
+		(at 151.13 40.64)
+		(uuid "21d8106d-e3c9-4806-9397-c35d50ba3227")
+	)
+	(no_connect
+		(at 146.05 40.64)
+		(uuid "243fc35c-4ac0-4ead-bcf4-a6edef42b360")
+	)
+	(no_connect
+		(at 148.59 40.64)
+		(uuid "39aa5b31-aab1-4fc6-aac1-1abf171fd43b")
+	)
+	(no_connect
+		(at 140.97 40.64)
+		(uuid "3e8ab36e-b4ba-42d1-8fb3-1fdccf7ac7c0")
+	)
+	(no_connect
+		(at 158.75 87.63)
+		(uuid "4528fa8e-e9ec-48b3-af71-f59d316f5c10")
+	)
+	(no_connect
+		(at 143.51 40.64)
+		(uuid "5b6842d9-2c01-434a-9462-a7f9af56773e")
+	)
+	(no_connect
+		(at 158.75 105.41)
+		(uuid "5d29b03b-8db5-41b4-940d-06a74c58a23c")
+	)
+	(no_connect
+		(at 138.43 107.95)
+		(uuid "5f767897-a8ed-4fb1-8f95-1ce667bca728")
+	)
+	(no_connect
+		(at 135.89 40.64)
+		(uuid "660b02d8-c225-4ce4-84d6-34bc753ef7be")
+	)
+	(no_connect
+		(at 158.75 95.25)
+		(uuid "70088c16-551a-42ea-bd6c-0cfa07f4bcfb")
+	)
+	(no_connect
+		(at 158.75 100.33)
+		(uuid "717ed6b3-a617-48c0-be08-66844e1f1ad1")
+	)
+	(no_connect
+		(at 138.43 40.64)
+		(uuid "77662c72-1b43-4d3e-9f8e-1312acdc9e25")
+	)
+	(no_connect
+		(at 153.67 40.64)
+		(uuid "79a3ffbf-9cb8-4610-bfff-2cbde05bc872")
+	)
+	(no_connect
+		(at 158.75 90.17)
+		(uuid "8fa710a9-f5b4-41aa-bff7-f763003caf1f")
+	)
+	(no_connect
+		(at 76.2 63.5)
+		(uuid "9c165c74-239b-47cd-956b-1eccd5414a14")
+	)
+	(no_connect
+		(at 135.89 107.95)
+		(uuid "a9974702-bd92-4a73-b05d-83a9593fb6b7")
+	)
+	(no_connect
+		(at 76.2 60.96)
+		(uuid "cbd74f41-dc91-4947-9cb0-6513d7d73a80")
+	)
+	(no_connect
+		(at 156.21 40.64)
+		(uuid "cc59728f-7b90-4010-b9e2-96eca9e0b008")
+	)
+	(no_connect
+		(at 133.35 107.95)
+		(uuid "d6cf7348-23c5-4cde-8ecd-ca42eb54be57")
+	)
+	(no_connect
+		(at 133.35 40.64)
+		(uuid "daa2fd22-7bde-4443-bf7a-d38db670255e")
+	)
+	(no_connect
+		(at 140.97 107.95)
+		(uuid "f5147d16-c00f-4d39-9d04-8cf47df2944c")
+	)
+	(polyline
+		(pts
+			(xy 132.715 109.855) (xy 133.985 111.125)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "036f8489-b213-4b11-a69e-50aff303e75f")
+	)
+	(wire
+		(pts
+			(xy 146.05 63.5) (xy 146.05 74.295)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06b8d8e2-7ace-407f-a0f4-b48efb01b596")
+	)
+	(polyline
+		(pts
+			(xy 133.985 111.125) (xy 140.97 111.125)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a020ced-f187-4906-901b-49613c812920")
+	)
 	(polyline
 		(pts
 			(xy 57.15 53.34) (xy 58.42 54.61)
@@ -162,6 +296,56 @@
 		)
 		(uuid "15e6126b-ae8a-416d-b70e-4b9919a5082e")
 	)
+	(wire
+		(pts
+			(xy 101.6 43.18) (xy 114.3 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19ee4a14-9d32-4d3e-98db-fa6abc12123e")
+	)
+	(wire
+		(pts
+			(xy 156.21 63.5) (xy 156.21 74.295)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1acbc79e-f9f6-4830-afc8-c6e7584948fc")
+	)
+	(polyline
+		(pts
+			(xy 133.985 37.465) (xy 132.715 38.735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "324dcbd6-b6c9-4526-837f-73d0d2eea5e1")
+	)
+	(polyline
+		(pts
+			(xy 155.575 37.465) (xy 133.985 37.465)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c26e285-2362-4dc8-b2f5-5c025fdcd088")
+	)
+	(wire
+		(pts
+			(xy 153.67 63.5) (xy 153.67 74.295)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4247498b-3425-4cbc-aeb5-731df8b75e76")
+	)
 	(polyline
 		(pts
 			(xy 57.15 53.34) (xy 76.2 53.34)
@@ -171,6 +355,76 @@
 			(type default)
 		)
 		(uuid "50e37583-b951-48eb-abf4-7a9adc8aab7e")
+	)
+	(wire
+		(pts
+			(xy 151.13 63.5) (xy 151.13 74.295)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51f96bba-745a-4cbf-8cf7-cc912f9fd33d")
+	)
+	(polyline
+		(pts
+			(xy 182.88 95.25) (xy 184.15 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51fc7c0c-9a68-4f52-9f79-536305bf7193")
+	)
+	(wire
+		(pts
+			(xy 101.6 78.74) (xy 114.3 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58a78060-761c-4be1-802a-026f9ded9d9f")
+	)
+	(polyline
+		(pts
+			(xy 73.66 60.325) (xy 73.66 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a0ef57f-da05-4065-a1f1-11ad30638d4b")
+	)
+	(wire
+		(pts
+			(xy 101.6 81.28) (xy 114.3 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e56fc42-e8d8-468c-bf0d-7a57d38d2d4f")
+	)
+	(wire
+		(pts
+			(xy 148.59 63.5) (xy 148.59 74.295)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6afc4f18-74b9-412f-a62d-dce695449b9c")
+	)
+	(polyline
+		(pts
+			(xy 182.88 97.79) (xy 184.15 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c70e9af-9561-4c05-a1f3-690af565b05b")
 	)
 	(polyline
 		(pts
@@ -184,6 +438,16 @@
 	)
 	(polyline
 		(pts
+			(xy 165.1 96.52) (xy 166.37 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84e3094b-044d-4d97-bee5-b084ae91ff84")
+	)
+	(polyline
+		(pts
 			(xy 57.15 53.34) (xy 58.42 52.07)
 		)
 		(stroke
@@ -191,6 +455,126 @@
 			(type default)
 		)
 		(uuid "a8415ff4-a532-47d1-a30d-417bf61b495e")
+	)
+	(polyline
+		(pts
+			(xy 74.93 59.055) (xy 73.66 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8851896-be8e-4f54-9944-205440acadd5")
+	)
+	(polyline
+		(pts
+			(xy 165.1 96.52) (xy 166.37 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aad79185-c436-4a04-9db1-69e0c18ba57f")
+	)
+	(polyline
+		(pts
+			(xy 160.655 106.045) (xy 161.925 104.775)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2d2ce0f-4e17-4333-b229-75b305602183")
+	)
+	(polyline
+		(pts
+			(xy 160.655 86.995) (xy 161.925 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4dc49bd-179e-45a4-b531-f7ebf2f6c6f6")
+	)
+	(wire
+		(pts
+			(xy 101.6 83.82) (xy 114.3 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c09638ba-770c-4618-b6f3-59906cdb2f1d")
+	)
+	(polyline
+		(pts
+			(xy 156.845 38.735) (xy 155.575 37.465)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7821da1-9e10-40dd-b5ad-cf9ca8182134")
+	)
+	(polyline
+		(pts
+			(xy 161.925 88.265) (xy 161.925 104.775)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8370119-cba6-4e5d-9b40-68fb03352ca4")
+	)
+	(wire
+		(pts
+			(xy 101.6 48.26) (xy 114.3 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce1fdf7c-890b-45d7-9c93-15d075549830")
+	)
+	(polyline
+		(pts
+			(xy 165.1 96.52) (xy 184.15 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5d8810f-fd7d-4eb8-9ff9-2f63fac238f2")
+	)
+	(polyline
+		(pts
+			(xy 73.66 67.31) (xy 74.93 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f95d4875-6c0f-4658-9f40-79c88e511177")
+	)
+	(wire
+		(pts
+			(xy 101.6 45.72) (xy 114.3 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbe9ec59-7386-4cc3-a8d9-f8353510fb22")
+	)
+	(polyline
+		(pts
+			(xy 140.97 111.125) (xy 142.24 109.855)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffbe76e2-e68c-4c66-81c6-23abc3424b81")
 	)
 	(text_box "PC"
 		(exclude_from_sim no)
@@ -206,27 +590,102 @@
 		)
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
+				(face "Consolas")
+				(size 1.016 1.016)
+				(thickness 0.1588)
 			)
 		)
 		(uuid "4adb4369-999b-4426-8e04-e5e47624c563")
+	)
+	(text_box "INVERTER BOARD"
+		(exclude_from_sim no)
+		(at 184.15 93.345 0)
+		(size 7.62 6.35)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 250 250 200 1)
+		)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+				(thickness 0.1588)
+			)
+		)
+		(uuid "f679b125-0d04-4174-a647-22b1ca54ca0b")
+	)
+	(text "INTERCONNECTION"
+		(exclude_from_sim no)
+		(at 137.16 113.665 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3f7173f9-45c1-4ea9-bb94-d253e36c6729")
+	)
+	(text "INTERCONNECTION"
+		(exclude_from_sim no)
+		(at 144.78 36.195 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "59189a0e-0ebd-459f-8059-3ee1f1b4308d")
+	)
+	(text "INTERCONNECTION"
+		(exclude_from_sim no)
+		(at 72.39 63.5 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "97377789-2156-4223-aed8-eee2c0ad1210")
+	)
+	(text "ICSP\n\nDV UART (3MBIT)\nDBG UART (115.2KBIT)"
+		(exclude_from_sim no)
+		(at 174.625 97.79 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+				(thickness 0.1588)
+			)
+		)
+		(uuid "a682bc78-07af-4395-89e4-c79a9954b53d")
 	)
 	(text "USB 2.0"
 		(exclude_from_sim no)
 		(at 69.85 53.34 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(face "Consolas")
+				(size 1.016 1.016)
+				(thickness 0.1588)
 			)
 			(justify right bottom)
 		)
 		(uuid "d4a06745-7ea8-42c4-aba8-a21180ee27a6")
 	)
+	(text "INTERCONNECTION"
+		(exclude_from_sim no)
+		(at 163.83 96.52 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ff993664-e7ba-469c-a645-d6f73a18b3db")
+	)
 	(symbol
 		(lib_id "SAMPI:SCREWHOLDER")
-		(at 97.155 102.235 0)
+		(at 98.425 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -234,47 +693,58 @@
 		(dnp no)
 		(uuid "12c81fba-a6c8-4dde-a33b-5b3e34e8bea6")
 		(property "Reference" "SH4"
-			(at 95.885 102.235 0)
+			(at 97.155 111.76 0)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "SCREW HOLDER"
-			(at 99.695 107.3149 0)
+			(at 100.965 116.8399 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.1588)
 				)
 				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Footprint" "SAMPI:SCREWHOLE-2.5M"
-			(at 97.155 102.235 0)
+			(at 98.425 111.76 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.1588)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.155 102.235 0)
+			(at 98.425 111.76 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.1588)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 97.155 102.235 0)
+			(at 98.425 111.76 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.1588)
 				)
 				(hide yes)
 			)
@@ -290,7 +760,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:SCREWHOLDER")
-		(at 78.105 102.235 0)
+		(at 79.375 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -298,47 +768,58 @@
 		(dnp no)
 		(uuid "95f149ad-827a-48dc-a18e-08cd2fa43fce")
 		(property "Reference" "SH1"
-			(at 76.835 102.235 0)
+			(at 78.105 111.76 0)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "SCREW HOLDER"
-			(at 80.645 107.3149 0)
+			(at 81.915 116.8399 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.1588)
 				)
 				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Footprint" "SAMPI:SCREWHOLE-2.5M"
-			(at 78.105 102.235 0)
+			(at 79.375 111.76 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.1588)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.105 102.235 0)
+			(at 79.375 111.76 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.1588)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 78.105 102.235 0)
+			(at 79.375 111.76 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.1588)
 				)
 				(hide yes)
 			)
@@ -354,7 +835,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:SCREWHOLDER")
-		(at 84.455 102.235 0)
+		(at 85.725 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -362,47 +843,58 @@
 		(dnp no)
 		(uuid "9615ae06-58c9-424c-9eb9-9fd9573636ba")
 		(property "Reference" "SH2"
-			(at 83.185 102.235 0)
+			(at 84.455 111.76 0)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "SCREW HOLDER"
-			(at 86.995 107.3149 0)
+			(at 88.265 116.8399 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.1588)
 				)
 				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Footprint" "SAMPI:SCREWHOLE-2.5M"
-			(at 84.455 102.235 0)
+			(at 85.725 111.76 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.1588)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 84.455 102.235 0)
+			(at 85.725 111.76 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.1588)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 84.455 102.235 0)
+			(at 85.725 111.76 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.1588)
 				)
 				(hide yes)
 			)
@@ -418,7 +910,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:SCREWHOLDER")
-		(at 90.805 102.235 0)
+		(at 92.075 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -426,47 +918,58 @@
 		(dnp no)
 		(uuid "a55496fe-8694-438d-843c-7a90edc81d58")
 		(property "Reference" "SH3"
-			(at 89.535 102.235 0)
+			(at 90.805 111.76 0)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "SCREW HOLDER"
-			(at 93.345 107.3149 0)
+			(at 94.615 116.8399 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.1588)
 				)
 				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Footprint" "SAMPI:SCREWHOLE-2.5M"
-			(at 90.805 102.235 0)
+			(at 92.075 111.76 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.1588)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.805 102.235 0)
+			(at 92.075 111.76 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.1588)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 90.805 102.235 0)
+			(at 92.075 111.76 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.1588)
 				)
 				(hide yes)
 			)
@@ -480,73 +983,9 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "SAMPI:SCREWHOLDER")
-		(at 103.505 102.235 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "c48296a7-3dba-4732-b87a-67128843ddef")
-		(property "Reference" "SH5"
-			(at 102.235 102.235 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SCREW HOLDER"
-			(at 106.045 107.3149 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SAMPI:SCREWHOLE-2.5M"
-			(at 103.505 102.235 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 103.505 102.235 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 103.505 102.235 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "HW.ACIM-DBG"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
-					(reference "SH5")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(sheet
 		(at 76.2 40.64)
-		(size 25.4 54.61)
+		(size 25.4 67.31)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -559,7 +998,8 @@
 			(at 76.2 37.465 0)
 			(effects
 				(font
-					(size 1.5 1.5)
+					(face "Consolas")
+					(size 1.27 1.27)
 					(bold yes)
 				)
 				(justify left bottom)
@@ -569,10 +1009,102 @@
 			(at 76.2 38.735 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.1588)
 				)
 				(justify left top)
 			)
+		)
+		(pin "USB2_PWR_EN" output
+			(at 101.6 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e2beebeb-7960-454c-a79d-0d5f4346fb73")
+		)
+		(pin "USB2_N" bidirectional
+			(at 101.6 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "de888f63-8c3d-4d71-b214-d011ee882402")
+		)
+		(pin "USB2_P" bidirectional
+			(at 101.6 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dc3350c8-da98-4dcd-8efa-4934e28d80ec")
+		)
+		(pin "USB1_N" bidirectional
+			(at 101.6 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5cbcf546-c6e7-4418-84ae-a5d5544f4b27")
+		)
+		(pin "USB_P" bidirectional
+			(at 76.2 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "53b315a7-ba52-460f-82d1-d2b10097f39f")
+		)
+		(pin "HUB_USB_VBUS" input
+			(at 76.2 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "74f38ec3-7815-44b7-aaa0-1ccfc4d0479e")
+		)
+		(pin "USB_N" bidirectional
+			(at 76.2 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e4a0f505-f605-4cb2-a547-614a6def6d95")
+		)
+		(pin "USB1_PWR_EN" output
+			(at 101.6 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1a4c514b-2f7b-437d-93fa-353ce682d39c")
+		)
+		(pin "USB1_P" bidirectional
+			(at 101.6 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "db21e936-4a33-4a5a-a2c5-e6c99aa57b0b")
 		)
 		(instances
 			(project "HW.ACIM-DBG"
@@ -584,7 +1116,7 @@
 	)
 	(sheet
 		(at 114.3 74.295)
-		(size 44.45 20.955)
+		(size 44.45 33.655)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -597,7 +1129,8 @@
 			(at 114.3 71.12 0)
 			(effects
 				(font
-					(size 1.5 1.5)
+					(face "Consolas")
+					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
 				)
@@ -608,10 +1141,212 @@
 			(at 114.3 72.39 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.1588)
 				)
 				(justify left top)
 			)
+		)
+		(pin "PRG_VBUS" input
+			(at 114.3 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c6a98084-8233-4d73-87cc-4a8209c1983e")
+		)
+		(pin "~{MCLR}" output
+			(at 133.35 107.95 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a0a25a05-c1f4-43c2-b9a5-80525f664fe7")
+		)
+		(pin "PGC" output
+			(at 140.97 107.95 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4684206c-a759-4181-b863-10374a78ff62")
+		)
+		(pin "ISO_PGC" input
+			(at 158.75 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "643fea2d-768f-4b68-b6ba-6af4372448d9")
+		)
+		(pin "~{ISO_MCLR}" input
+			(at 158.75 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "03fbbb49-5192-49c3-b0fa-40e4ddf61a3d")
+		)
+		(pin "ISO_PGD" bidirectional
+			(at 158.75 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ed89f3b0-94da-43fa-b939-98ee28a32f3f")
+		)
+		(pin "VDD_SEN" input
+			(at 135.89 107.95 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f92e48df-ab9f-47cf-ab11-9557fba97f0e")
+		)
+		(pin "PGD" bidirectional
+			(at 138.43 107.95 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2d83003c-43dc-465a-81d0-556a25ae46ce")
+		)
+		(pin "ISO_DB_TXD" output
+			(at 158.75 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "92efec2c-aa94-45c6-9cf6-d68436a481e5")
+		)
+		(pin "ISO_HS_RTS" output
+			(at 158.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1d6450d6-b10e-4264-8e46-fb913037988e")
+		)
+		(pin "ISO_HS_CTS" input
+			(at 158.75 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c111fc3b-f486-4c2d-adf1-f9e78204b7d9")
+		)
+		(pin "ISO_HS_TXD" output
+			(at 158.75 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a013a5bf-0fcd-4b9e-8fc2-439d41761d18")
+		)
+		(pin "ISO_HS_RXD" input
+			(at 158.75 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2f9dc5a0-e982-479e-af1d-3e976d3e8e91")
+		)
+		(pin "DV_TXD" output
+			(at 148.59 74.295 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "01a165cc-62d0-4d1f-93a2-fe5ae64774d6")
+		)
+		(pin "DV_RTS" output
+			(at 153.67 74.295 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "209ce3e2-f568-4485-9947-0d341acc857a")
+		)
+		(pin "DB_TXD" output
+			(at 146.05 74.295 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ee2f6285-b9a0-4a0e-8666-5254a85e8e9b")
+		)
+		(pin "PRG_USB_P" bidirectional
+			(at 114.3 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cf30d5ed-7181-4f5d-a40a-3f36d96c23d8")
+		)
+		(pin "PRG_USB_N" bidirectional
+			(at 114.3 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "021c6e3b-1f71-4438-9fcc-83cb3bdfd66e")
+		)
+		(pin "DV_RXD" input
+			(at 151.13 74.295 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2fdbe9a0-8424-4c91-8413-b7ac363e775c")
+		)
+		(pin "DV_CTS" input
+			(at 156.21 74.295 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "89393e1c-9881-4fc2-894f-334a32a84d4c")
 		)
 		(instances
 			(project "HW.ACIM-DBG"
@@ -636,7 +1371,8 @@
 			(at 114.3 37.465 0)
 			(effects
 				(font
-					(size 1.5 1.5)
+					(face "Consolas")
+					(size 1.27 1.27)
 					(bold yes)
 				)
 				(justify left bottom)
@@ -646,10 +1382,202 @@
 			(at 114.3 38.735 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.1588)
 				)
 				(justify left top)
 			)
+		)
+		(pin "~{VCP_MCLR}" input
+			(at 133.35 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c1acf205-43bf-4ed8-ba79-fc943f828e1f")
+		)
+		(pin "HS_RTS" output
+			(at 156.21 63.5 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1bb40232-b09d-4943-b80d-4a4da83950ca")
+		)
+		(pin "HS_CTS" input
+			(at 153.67 63.5 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "53477307-8bbb-4259-a9a3-722f2fe9c12f")
+		)
+		(pin "~{BT_MODE}" input
+			(at 146.05 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "89c7fb26-6b67-4f83-9920-a1dcf8697abd")
+		)
+		(pin "MODE_SLED" input
+			(at 151.13 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a6ab0e41-c109-48cb-b7f1-87d0fddf57ec")
+		)
+		(pin "HS_SLED" input
+			(at 153.67 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "65e448c8-e717-44e3-a233-e10c4a3430c2")
+		)
+		(pin "VCP_USB_N" bidirectional
+			(at 114.3 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ba51d096-ecb9-4132-9df9-8bab0314d83b")
+		)
+		(pin "HS_TXD" output
+			(at 151.13 63.5 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4e7579d6-1f77-4673-a847-87eaec38028b")
+		)
+		(pin "HS_RXD" input
+			(at 148.59 63.5 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1122996f-c803-49dd-8ef3-5c0c85370bed")
+		)
+		(pin "LS_SLED" input
+			(at 156.21 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "74e8fc81-2b72-4bb9-ac09-4b261bd7fa6f")
+		)
+		(pin "VCP_USB_VBUS" input
+			(at 114.3 43.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "55feba2e-40cd-4da6-b27f-25caf8d0474b")
+		)
+		(pin "SCL" output
+			(at 143.51 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7c83f4dd-4470-4f54-9e8a-8bd4587f4e0d")
+		)
+		(pin "SDA" bidirectional
+			(at 140.97 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fa24bf03-14b8-4300-b129-36cc8b770a88")
+		)
+		(pin "MODE_SEL" output
+			(at 148.59 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bcd37450-b39a-46f1-be85-79ee13e35208")
+		)
+		(pin "LS_RXD" input
+			(at 146.05 63.5 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fa642292-22cd-4f02-b7f3-2d4da7d8286b")
+		)
+		(pin "VCP_PGD" bidirectional
+			(at 135.89 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "96918146-890e-4dcc-b545-b0e057775f23")
+		)
+		(pin "VCP_PGC" input
+			(at 138.43 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "24366d4a-188d-40d9-8e94-e628d4bbe2f6")
+		)
+		(pin "LS_TXD" output
+			(at 143.51 63.5 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e24c8fb2-ac8c-4093-a7f2-d29c4d1b17c1")
+		)
+		(pin "VCP_USB_P" bidirectional
+			(at 114.3 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8f6e9f02-3d1c-4360-b8cc-b3284b4f7372")
 		)
 		(instances
 			(project "HW.ACIM-DBG"
