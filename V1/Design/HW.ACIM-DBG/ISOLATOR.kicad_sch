@@ -590,6 +590,283 @@
 				)
 			)
 		)
+		(symbol "SAMPI:FET_N-CH"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 1.27 1.27 0)
+				(effects
+					(font
+						(size 1.5 1.5)
+						(bold yes)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "MFET N"
+				(at 1.27 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FET_N-CH_0_1"
+				(polyline
+					(pts
+						(xy 2.54 -5.461) (xy 2.54 -4.699)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.429) (xy 2.54 -4.191)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.159) (xy 2.54 -2.921)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -4.445) (xy 5.715 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -3.175) (xy 5.715 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 1.905 -5.08) (xy 1.905 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.81) (xy 3.81 -3.81) (xy 3.81 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -6.35) (xy 3.81 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -5.715) (xy 5.08 -5.715) (xy 5.08 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.905) (xy 5.08 -1.905) (xy 5.08 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 3.81 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -4.445) (xy 5.08 -3.175) (xy 5.715 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FET_N-CH_1_1"
+				(polyline
+					(pts
+						(xy 3.302 -3.429) (xy 3.302 -4.191) (xy 2.921 -3.81) (xy 3.302 -3.429)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 3.81 -3.81)
+					(radius 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -5.08 0)
+					(length 1.27)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 3.81 -7.62 90)
+					(length 1.27)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 3.81 0 270)
+					(length 1.27)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SAMPI:FET_P-CH"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -4429,16 +4706,22 @@
 		(uuid "0a188dc5-b4f0-4d15-9a78-51ec46fab286")
 	)
 	(junction
+		(at 138.43 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ff1c6b3-19a6-49bd-9647-26f4260ebcd6")
+	)
+	(junction
 		(at 111.76 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c366c7e-ca85-4217-a463-08dd33259f84")
 	)
 	(junction
-		(at 143.51 24.13)
+		(at 138.43 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "338ac034-3358-4ffc-8f9f-0365574929c8")
+		(uuid "2b0e5b4c-2b2d-48b7-a286-4e84bfdaacae")
 	)
 	(junction
 		(at 102.87 129.54)
@@ -4495,12 +4778,6 @@
 		(uuid "89560768-1aad-4ef5-a8e0-57fea3594be5")
 	)
 	(junction
-		(at 143.51 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8cd1f89f-b501-4be1-b6cd-3c2378098865")
-	)
-	(junction
 		(at 137.16 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4517,12 +4794,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a502d909-a3c9-46af-9a7c-4e47eb221e3f")
-	)
-	(junction
-		(at 133.35 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba56af88-6d3f-4817-bdda-bbf9acc8f284")
 	)
 	(junction
 		(at 146.05 95.25)
@@ -4561,7 +4832,7 @@
 		(uuid "e3ed41fd-b450-4ddf-96a1-3d04a4858f88")
 	)
 	(junction
-		(at 133.35 34.29)
+		(at 133.35 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e866677d-dab0-4d95-902b-e18a4d829293")
@@ -4604,23 +4875,13 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 24.13) (xy 133.35 25.4)
+			(xy 133.35 19.05) (xy 133.35 20.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0351a962-12e0-462c-ac15-63d9248390df")
-	)
-	(wire
-		(pts
-			(xy 143.51 29.21) (xy 143.51 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04af3123-7421-45cd-b76a-7c92924270b9")
 	)
 	(wire
 		(pts
@@ -4714,7 +4975,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 22.86) (xy 143.51 24.13)
+			(xy 138.43 17.78) (xy 138.43 19.05)
 		)
 		(stroke
 			(width 0)
@@ -4784,7 +5045,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.745 36.83) (xy 118.745 38.1)
+			(xy 118.745 31.75) (xy 118.745 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4844,7 +5105,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 39.37) (xy 133.35 38.1)
+			(xy 133.35 31.75) (xy 133.35 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4871,16 +5132,6 @@
 			(type default)
 		)
 		(uuid "3231ff88-8c3c-41d3-a0ac-19521b029040")
-	)
-	(wire
-		(pts
-			(xy 133.35 36.83) (xy 133.35 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32cdaf1a-aec2-48c5-92cd-95a92acad833")
 	)
 	(wire
 		(pts
@@ -4914,16 +5165,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 24.13) (xy 143.51 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3833525f-3d24-420a-b673-b8b00cd60dec")
-	)
-	(wire
-		(pts
 			(xy 165.1 157.48) (xy 165.1 158.75)
 		)
 		(stroke
@@ -4934,7 +5175,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 36.83) (xy 133.35 36.83)
+			(xy 132.08 31.75) (xy 133.35 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4954,7 +5195,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 34.29) (xy 139.7 34.29)
+			(xy 133.35 29.21) (xy 134.62 29.21)
 		)
 		(stroke
 			(width 0)
@@ -5064,6 +5305,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 35.56) (xy 138.43 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62efcec0-284c-48eb-9d96-991673022b5c")
+	)
+	(wire
+		(pts
 			(xy 126.365 158.75) (xy 135.89 158.75)
 		)
 		(stroke
@@ -5104,7 +5355,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 33.02) (xy 133.35 34.29)
+			(xy 133.35 27.94) (xy 133.35 29.21)
 		)
 		(stroke
 			(width 0)
@@ -5234,7 +5485,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 36.83) (xy 143.51 38.1)
+			(xy 138.43 34.29) (xy 138.43 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5414,6 +5665,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 19.05) (xy 138.43 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a02f646f-b9f3-4c28-b61e-9861ec9a309a")
+	)
+	(wire
+		(pts
 			(xy 102.87 129.54) (xy 102.87 130.81)
 		)
 		(stroke
@@ -5424,7 +5685,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 38.1) (xy 144.78 38.1)
+			(xy 138.43 35.56) (xy 139.7 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5434,7 +5695,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.015 36.83) (xy 118.745 36.83)
+			(xy 120.015 31.75) (xy 118.745 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5474,16 +5735,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 38.1) (xy 133.35 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4517af4-e567-45f1-83da-a7a9e3554cae")
-	)
-	(wire
-		(pts
 			(xy 44.45 172.72) (xy 53.34 172.72)
 		)
 		(stroke
@@ -5504,7 +5755,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 34.29) (xy 132.08 34.29)
+			(xy 133.35 29.21) (xy 132.08 29.21)
 		)
 		(stroke
 			(width 0)
@@ -5521,16 +5772,6 @@
 			(type default)
 		)
 		(uuid "c270c9d1-0b18-49d2-b097-020a025c897c")
-	)
-	(wire
-		(pts
-			(xy 143.51 38.1) (xy 142.24 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4cfa7dc-0f7e-4bc4-a81f-71826564697c")
 	)
 	(wire
 		(pts
@@ -5794,6 +6035,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 19.05) (xy 138.43 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7af8d76-bcd9-4ace-ad2f-e3f3ca901591")
+	)
+	(wire
+		(pts
 			(xy 102.87 95.25) (xy 101.6 95.25)
 		)
 		(stroke
@@ -5857,7 +6108,7 @@
 	)
 	(text "ISOLATED POWER - DANGER-ZONE"
 		(exclude_from_sim no)
-		(at 111.76 22.225 0)
+		(at 111.76 21.59 0)
 		(effects
 			(font
 				(face "Consolas")
@@ -6010,7 +6261,7 @@
 	)
 	(hierarchical_label "VDD_SEN"
 		(shape output)
-		(at 144.78 38.1 0)
+		(at 139.7 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6514,6 +6765,96 @@
 		)
 	)
 	(symbol
+		(lib_id "SAMPI:FET_N-CH")
+		(at 42.545 158.75 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0772de1f-50fa-4321-aa8a-3e5a52909d56")
+		(property "Reference" "Q1"
+			(at 38.735 147.955 90)
+			(effects
+				(font
+					(size 1.5 1.5)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "20V/2.9A"
+			(at 38.735 150.495 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SAMPI:SOT23"
+			(at 42.545 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 42.545 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET N-CH 20V 2.9A SOT-23-3"
+			(at 42.545 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Vishay"
+			(at 42.545 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "SI2302DS"
+			(at 42.545 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aee7f21d-fda4-4d29-b4aa-1c27ca2e301c")
+		)
+		(pin "2"
+			(uuid "4e416e7a-1920-49f4-bb52-22be99bce5bf")
+		)
+		(pin "3"
+			(uuid "f44ce549-06df-4233-94a3-563ddf017902")
+		)
+		(instances
+			(project ""
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/41f97a9f-5331-4d01-9d06-5e4a321167bc"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SAMPI:ISO6740")
 		(at 124.46 77.47 0)
 		(mirror y)
@@ -6657,7 +6998,8 @@
 	)
 	(symbol
 		(lib_id "SAMPI:FET_P-CH")
-		(at 139.7 29.21 0)
+		(at 134.62 34.29 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6665,7 +7007,7 @@
 		(dnp no)
 		(uuid "12036048-7681-4b92-8d66-6e1fcdcaf974")
 		(property "Reference" "Q2"
-			(at 146.685 33.02 0)
+			(at 141.605 30.48 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -6676,7 +7018,7 @@
 			)
 		)
 		(property "Value" "20V/2.3A"
-			(at 146.685 34.2899 0)
+			(at 141.605 29.2101 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -6687,8 +7029,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 139.7 29.21 0)
+		(property "Footprint" "SAMPI:SOT23"
+			(at 134.62 34.29 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -6699,7 +7041,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 29.21 0)
+			(at 134.62 34.29 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -6710,7 +7052,7 @@
 			)
 		)
 		(property "Description" "MOSFET P-CH 20V 2.3A SOT-23-3"
-			(at 139.7 29.21 0)
+			(at 134.62 34.29 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -6721,7 +7063,7 @@
 			)
 		)
 		(property "MFT" "Vishay"
-			(at 139.7 29.21 0)
+			(at 134.62 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6730,7 +7072,7 @@
 			)
 		)
 		(property "MNP" "SI2301DS"
-			(at 139.7 29.21 0)
+			(at 134.62 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6908,7 +7250,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 143.51 22.86 0)
+		(at 138.43 17.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6916,7 +7258,7 @@
 		(dnp no)
 		(uuid "1d87bacd-e1ab-4bec-a0e1-2bf71f01c768")
 		(property "Reference" "#PWR089"
-			(at 143.51 26.67 0)
+			(at 138.43 21.59 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -6928,7 +7270,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 143.51 19.05 0)
+			(at 138.43 13.97 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -6938,7 +7280,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 22.86 0)
+			(at 138.43 17.78 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -6949,7 +7291,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 22.86 0)
+			(at 138.43 17.78 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -6960,7 +7302,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 22.86 0)
+			(at 138.43 17.78 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -7089,7 +7431,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Liem:RES0402"
+		(property "Footprint" "SAMPI:RES0603"
 			(at 99.06 87.63 0)
 			(effects
 				(font
@@ -7111,7 +7453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 1K OHM 5% 1/16W 0402"
+		(property "Description" "RES 100 OHM 1% 1/10W 0603"
 			(at 99.06 87.63 0)
 			(effects
 				(font
@@ -7122,7 +7464,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Rohm Semiconductor"
+		(property "MFT" "YAGEO"
 			(at 99.06 87.63 0)
 			(effects
 				(font
@@ -7133,7 +7475,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "MCR01MZPJ102"
+		(property "MNP" "RC0603FR-07100RL"
 			(at 99.06 87.63 0)
 			(effects
 				(font
@@ -7313,8 +7655,8 @@
 	)
 	(symbol
 		(lib_id "SAMPI:RES")
-		(at 139.7 35.56 0)
-		(mirror y)
+		(at 135.89 39.37 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7322,7 +7664,7 @@
 		(dnp no)
 		(uuid "34a72637-e7c4-43e0-88d4-ef1e7e6b0264")
 		(property "Reference" "R25"
-			(at 137.16 36.195 0)
+			(at 139.7 39.37 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -7333,7 +7675,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 137.16 40.005 0)
+			(at 139.7 41.91 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -7343,8 +7685,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Liem:RES0402"
-			(at 139.7 35.56 0)
+		(property "Footprint" "SAMPI:RES0603"
+			(at 135.89 39.37 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -7355,7 +7697,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 35.56 0)
+			(at 135.89 39.37 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -7365,8 +7707,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 1K OHM 5% 1/16W 0402"
-			(at 139.7 35.56 0)
+		(property "Description" "RES 10K OHM 1% 1/10W 0603"
+			(at 135.89 39.37 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -7376,8 +7718,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Rohm Semiconductor"
-			(at 139.7 35.56 0)
+		(property "MFT" "YAGEO"
+			(at 135.89 39.37 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -7387,8 +7729,8 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "MCR01MZPJ102"
-			(at 139.7 35.56 0)
+		(property "MNP" "RC0603FR-0710KL"
+			(at 135.89 39.37 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -7445,7 +7787,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Liem:RES0402"
+		(property "Footprint" "SAMPI:RES0603"
 			(at 48.26 186.69 0)
 			(effects
 				(font
@@ -7467,7 +7809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 100K OHM 5% 1/16W 0402"
+		(property "Description" "RES 100K OHM 1% 1/10W 0603"
 			(at 48.26 186.69 0)
 			(effects
 				(font
@@ -7478,7 +7820,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Rohm Semiconductor"
+		(property "MFT" "YAGEO"
 			(at 48.26 186.69 0)
 			(effects
 				(font
@@ -7489,7 +7831,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "MCR01MRTJ104"
+		(property "MNP" "RC0603FR-07100KL"
 			(at 48.26 186.69 0)
 			(effects
 				(font
@@ -7517,7 +7859,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:+3V3_ISO")
-		(at 112.395 34.29 90)
+		(at 112.395 29.21 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7526,7 +7868,7 @@
 		(dnp no)
 		(uuid "37c17cda-24c9-4c16-b655-9a0ba7d43dc5")
 		(property "Reference" "#PWR086"
-			(at 116.205 34.29 0)
+			(at 116.205 29.21 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -7538,7 +7880,7 @@
 			)
 		)
 		(property "Value" "+3V3_ISO"
-			(at 109.22 34.29 90)
+			(at 109.22 29.21 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -7549,7 +7891,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 112.395 34.29 0)
+			(at 112.395 29.21 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -7560,7 +7902,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 112.395 34.29 0)
+			(at 112.395 29.21 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -7571,7 +7913,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3_ISO\""
-			(at 112.395 34.29 0)
+			(at 112.395 29.21 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -7778,7 +8120,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Liem:RES0402"
+		(property "Footprint" "SAMPI:RES0603"
 			(at 64.77 173.99 0)
 			(effects
 				(font
@@ -7800,7 +8142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 1K OHM 5% 1/16W 0402"
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
 			(at 64.77 173.99 0)
 			(effects
 				(font
@@ -7811,7 +8153,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Rohm Semiconductor"
+		(property "MFT" "YAGEO"
 			(at 64.77 173.99 0)
 			(effects
 				(font
@@ -7822,7 +8164,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "MCR01MZPJ102"
+		(property "MNP" "RC0603FR-071KL"
 			(at 64.77 173.99 0)
 			(effects
 				(font
@@ -8175,7 +8517,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:OPTO-BJT-1CH")
-		(at 125.73 29.845 0)
+		(at 125.73 24.765 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8183,7 +8525,7 @@
 		(dnp no)
 		(uuid "4bd6a828-d00d-47f8-9158-418c1276b39d")
 		(property "Reference" "OP1"
-			(at 124.46 31.75 0)
+			(at 124.46 26.67 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -8193,7 +8535,7 @@
 			)
 		)
 		(property "Value" "OPTO-BJT-1CH"
-			(at 125.73 31.115 0)
+			(at 125.73 26.035 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -8204,7 +8546,7 @@
 			)
 		)
 		(property "Footprint" "SAMPI:OPTO_SO4_7.6MM"
-			(at 124.46 28.575 0)
+			(at 124.46 23.495 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -8215,7 +8557,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 28.575 0)
+			(at 124.46 23.495 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -8226,7 +8568,7 @@
 			)
 		)
 		(property "Description" "OPTOISOLTR 5KV TRANSISTOR 4-SOP"
-			(at 124.46 28.575 0)
+			(at 124.46 23.495 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -8237,7 +8579,7 @@
 			)
 		)
 		(property "MNP" "EL1018(TA)-VG"
-			(at 125.73 29.845 0)
+			(at 125.73 24.765 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -8248,7 +8590,7 @@
 			)
 		)
 		(property "MFT" "Everlight Electronics Co Ltd"
-			(at 125.73 29.845 0)
+			(at 125.73 24.765 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -8308,7 +8650,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Liem:LED0603"
+		(property "Footprint" "SAMPI:LED0603"
 			(at 69.85 175.895 0)
 			(effects
 				(font
@@ -8330,7 +8672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED RED DIFFUSED 1608 SMD"
+		(property "Description" "LED RED DIFFUSED 0603 SMD"
 			(at 69.85 175.895 0)
 			(effects
 				(font
@@ -8341,7 +8683,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "SML-D12V8WT86P"
+		(property "MNP" "B1911USD-20D000114U1930"
 			(at 69.85 175.895 0)
 			(effects
 				(font
@@ -8352,7 +8694,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Rohm Semiconductor"
+		(property "MFT" "Harvatek"
 			(at 69.85 175.895 0)
 			(effects
 				(font
@@ -8709,7 +9051,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:GND_ISO")
-		(at 118.745 46.99 0)
+		(at 118.745 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8717,7 +9059,7 @@
 		(dnp no)
 		(uuid "64032dac-1f97-496b-b59a-3de1db12ed33")
 		(property "Reference" "#PWR087"
-			(at 118.745 40.64 0)
+			(at 118.745 35.56 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -8729,7 +9071,7 @@
 			)
 		)
 		(property "Value" "GND_ISO"
-			(at 118.745 41.275 0)
+			(at 118.745 36.195 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -8739,7 +9081,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.745 38.1 0)
+			(at 118.745 33.02 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -8750,7 +9092,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.745 38.1 0)
+			(at 118.745 33.02 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -8761,7 +9103,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+GND_ISO\""
-			(at 118.745 46.99 0)
+			(at 118.745 41.91 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -8815,7 +9157,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Liem:RES0402"
+		(property "Footprint" "SAMPI:RES0603"
 			(at 64.77 177.8 0)
 			(effects
 				(font
@@ -8837,7 +9179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 1K OHM 5% 1/16W 0402"
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
 			(at 64.77 177.8 0)
 			(effects
 				(font
@@ -8848,7 +9190,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Rohm Semiconductor"
+		(property "MFT" "YAGEO"
 			(at 64.77 177.8 0)
 			(effects
 				(font
@@ -8859,7 +9201,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "MCR01MZPJ102"
+		(property "MNP" "RC0603FR-071KL"
 			(at 64.77 177.8 0)
 			(effects
 				(font
@@ -9002,7 +9344,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 133.35 39.37 0)
+		(at 133.35 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9010,7 +9352,7 @@
 		(dnp no)
 		(uuid "6d12922c-280a-4b0e-9877-9e0eb1380382")
 		(property "Reference" "#PWR085"
-			(at 133.35 45.72 0)
+			(at 133.35 39.37 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -9022,7 +9364,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.35 43.18 0)
+			(at 133.35 36.83 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -9032,7 +9374,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 39.37 0)
+			(at 133.35 33.02 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -9043,7 +9385,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 39.37 0)
+			(at 133.35 33.02 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -9054,7 +9396,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 39.37 0)
+			(at 133.35 33.02 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -9249,7 +9591,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Liem:RES0402"
+		(property "Footprint" "SAMPI:RES0603"
 			(at 55.88 186.69 0)
 			(effects
 				(font
@@ -9271,7 +9613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 100K OHM 5% 1/16W 0402"
+		(property "Description" "RES 100K OHM 1% 1/10W 0603"
 			(at 55.88 186.69 0)
 			(effects
 				(font
@@ -9282,7 +9624,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Rohm Semiconductor"
+		(property "MFT" "YAGEO"
 			(at 55.88 186.69 0)
 			(effects
 				(font
@@ -9293,7 +9635,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "MCR01MRTJ104"
+		(property "MNP" "RC0603FR-07100KL"
 			(at 55.88 186.69 0)
 			(effects
 				(font
@@ -9815,7 +10157,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Liem:RES0402"
+		(property "Footprint" "SAMPI:RES0603"
 			(at 137.16 72.39 0)
 			(effects
 				(font
@@ -9837,7 +10179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 1K OHM 5% 1/16W 0402"
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
 			(at 137.16 72.39 0)
 			(effects
 				(font
@@ -9848,7 +10190,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Rohm Semiconductor"
+		(property "MFT" "YAGEO"
 			(at 137.16 72.39 0)
 			(effects
 				(font
@@ -9859,7 +10201,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "MCR01MZPJ102"
+		(property "MNP" "RC0603FR-071KL"
 			(at 137.16 72.39 0)
 			(effects
 				(font
@@ -10170,7 +10512,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Liem:RES0402"
+		(property "Footprint" "SAMPI:RES0603"
 			(at 152.4 114.3 0)
 			(effects
 				(font
@@ -10192,7 +10534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 1K OHM 5% 1/16W 0402"
+		(property "Description" "RES 100 OHM 1% 1/10W 0603"
 			(at 152.4 114.3 0)
 			(effects
 				(font
@@ -10203,7 +10545,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Rohm Semiconductor"
+		(property "MFT" "YAGEO"
 			(at 152.4 114.3 0)
 			(effects
 				(font
@@ -10214,7 +10556,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "MCR01MZPJ102"
+		(property "MNP" "RC0603FR-07100RL"
 			(at 152.4 114.3 0)
 			(effects
 				(font
@@ -10272,7 +10614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SAMPI:SOT23"
 			(at 137.16 66.04 0)
 			(effects
 				(font
@@ -10449,7 +10791,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Liem:CAP2312-6032"
+		(property "Footprint" "SAMPI:CAP1411"
 			(at 114.3 162.56 0)
 			(effects
 				(font
@@ -10551,7 +10893,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Liem:RES0402"
+		(property "Footprint" "SAMPI:RES0603"
 			(at 121.285 63.5 0)
 			(effects
 				(font
@@ -10573,7 +10915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 5.1K OHM 1% 1/16W 0402"
+		(property "Description" "RES 5.1K OHM 1% 1/10W 0603"
 			(at 121.285 63.5 0)
 			(effects
 				(font
@@ -10595,7 +10937,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "RC0402FR-075K1L"
+		(property "MNP" "RC0603FR-075K1L"
 			(at 121.285 63.5 0)
 			(effects
 				(font
@@ -11059,7 +11401,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:RES")
-		(at 117.475 31.75 0)
+		(at 117.475 26.67 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11068,7 +11410,7 @@
 		(dnp no)
 		(uuid "c20c1e0f-945f-4e16-9941-c1adafb708e9")
 		(property "Reference" "R23"
-			(at 114.935 31.75 0)
+			(at 114.935 26.67 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -11079,7 +11421,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 114.935 36.195 0)
+			(at 114.935 31.115 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -11089,8 +11431,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Liem:RES0402"
-			(at 117.475 31.75 0)
+		(property "Footprint" "SAMPI:RES0603"
+			(at 117.475 26.67 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -11101,7 +11443,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 117.475 31.75 0)
+			(at 117.475 26.67 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -11111,8 +11453,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 1K OHM 5% 1/16W 0402"
-			(at 117.475 31.75 0)
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 117.475 26.67 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -11122,8 +11464,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Rohm Semiconductor"
-			(at 117.475 31.75 0)
+		(property "MFT" "YAGEO"
+			(at 117.475 26.67 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -11133,8 +11475,8 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "MCR01MZPJ102"
-			(at 117.475 31.75 0)
+		(property "MNP" "RC0603FR-071KL"
+			(at 117.475 26.67 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -11266,7 +11608,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Liem:RES0402"
+		(property "Footprint" "SAMPI:RES0603"
 			(at 135.89 54.61 0)
 			(effects
 				(font
@@ -11288,7 +11630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 1K OHM 5% 1/16W 0402"
+		(property "Description" "RES 10K OHM 1% 1/10W 0603"
 			(at 135.89 54.61 0)
 			(effects
 				(font
@@ -11299,7 +11641,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Rohm Semiconductor"
+		(property "MFT" "YAGEO"
 			(at 135.89 54.61 0)
 			(effects
 				(font
@@ -11310,7 +11652,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "MCR01MZPJ102"
+		(property "MNP" "RC0603FR-0710KL"
 			(at 135.89 54.61 0)
 			(effects
 				(font
@@ -11433,7 +11775,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:RES")
-		(at 135.89 30.48 270)
+		(at 135.89 25.4 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11442,7 +11784,7 @@
 		(dnp no)
 		(uuid "d8be437b-17fd-43e7-a873-765a94ad4359")
 		(property "Reference" "R24"
-			(at 137.795 28.575 90)
+			(at 131.445 22.86 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -11453,7 +11795,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 137.16 31.115 90)
+			(at 131.445 25.4 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -11463,8 +11805,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Liem:RES0402"
-			(at 135.89 30.48 0)
+		(property "Footprint" "SAMPI:RES0603"
+			(at 135.89 25.4 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -11475,7 +11817,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 30.48 0)
+			(at 135.89 25.4 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -11485,8 +11827,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 47K OHM 5% 1/16W 0402"
-			(at 135.89 30.48 0)
+		(property "Description" "RES 10K OHM 1% 1/10W 0603"
+			(at 135.89 25.4 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -11496,8 +11838,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Rohm Semiconductor"
-			(at 135.89 30.48 0)
+		(property "MFT" "YAGEO"
+			(at 135.89 25.4 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -11507,8 +11849,8 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "MCR01MZPJ473"
-			(at 135.89 30.48 0)
+		(property "MNP" "RC0603FR-0710KL"
+			(at 135.89 25.4 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -11641,7 +11983,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Liem:RES0402"
+		(property "Footprint" "SAMPI:RES0603"
 			(at 144.78 58.42 0)
 			(effects
 				(font
@@ -11663,7 +12005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 1K OHM 5% 1/16W 0402"
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
 			(at 144.78 58.42 0)
 			(effects
 				(font
@@ -11674,7 +12016,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Rohm Semiconductor"
+		(property "MFT" "YAGEO"
 			(at 144.78 58.42 0)
 			(effects
 				(font
@@ -11685,7 +12027,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "MCR01MZPJ102"
+		(property "MNP" "RC0603FR-071KL"
 			(at 144.78 58.42 0)
 			(effects
 				(font
@@ -12426,7 +12768,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Liem:LED0603"
+		(property "Footprint" "SAMPI:LED0603"
 			(at 69.85 172.085 0)
 			(effects
 				(font
@@ -12448,7 +12790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED RED DIFFUSED 1608 SMD"
+		(property "Description" "LED RED DIFFUSED 0603 SMD"
 			(at 69.85 172.085 0)
 			(effects
 				(font
@@ -12459,7 +12801,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "SML-D12V8WT86P"
+		(property "MNP" "B1911USD-20D000114U1930"
 			(at 69.85 172.085 0)
 			(effects
 				(font
@@ -12470,7 +12812,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Rohm Semiconductor"
+		(property "MFT" "Harvatek"
 			(at 69.85 172.085 0)
 			(effects
 				(font
@@ -12491,6 +12833,82 @@
 			(project "HW.ACIM-DBG"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/41f97a9f-5331-4d01-9d06-5e4a321167bc"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 138.43 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff99a7c6-706c-459c-93a0-cc0c3520ec73")
+		(property "Reference" "#PWR060"
+			(at 138.43 50.8 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 48.26 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 44.45 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.1588)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 44.45 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.1588)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 44.45 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.1588)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "703520c4-fad6-450e-8eac-938008c2f822")
+		)
+		(instances
+			(project "HW.ACIM-DBG"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/41f97a9f-5331-4d01-9d06-5e4a321167bc"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)

@@ -738,13 +738,31 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FILLISTER PHILLIPS SCREW, M2 X ."
 			(at 98.425 111.76 0)
 			(effects
 				(font
 					(face "Consolas")
 					(size 1.016 1.016)
 					(thickness 0.1588)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Essentra Components"
+			(at 98.425 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "50M020040G005"
+			(at 98.425 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -813,13 +831,31 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FILLISTER PHILLIPS SCREW, M2 X ."
 			(at 79.375 111.76 0)
 			(effects
 				(font
 					(face "Consolas")
 					(size 1.016 1.016)
 					(thickness 0.1588)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Essentra Components"
+			(at 79.375 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "50M020040G005"
+			(at 79.375 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -888,13 +924,31 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FILLISTER PHILLIPS SCREW, M2 X ."
 			(at 85.725 111.76 0)
 			(effects
 				(font
 					(face "Consolas")
 					(size 1.016 1.016)
 					(thickness 0.1588)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Essentra Components"
+			(at 85.725 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "50M020040G005"
+			(at 85.725 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -963,13 +1017,31 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FILLISTER PHILLIPS SCREW, M2 X ."
 			(at 92.075 111.76 0)
 			(effects
 				(font
 					(face "Consolas")
 					(size 1.016 1.016)
 					(thickness 0.1588)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Essentra Components"
+			(at 92.075 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "50M020040G005"
+			(at 92.075 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)

@@ -4434,7 +4434,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Liem:CAP0402"
+		(property "Footprint" "SAMPI:CAP0603"
 			(at 172.72 59.055 0)
 			(effects
 				(font
@@ -4456,7 +4456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 6.3V X5R 0402"
+		(property "Description" "CAP CER 1UF 10V X7R 0603"
 			(at 172.72 59.055 0)
 			(effects
 				(font
@@ -4467,7 +4467,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "GRM155R60J105KE19D"
+		(property "MNP" "CL10B105KP8NNNC"
 			(at 172.72 59.055 0)
 			(effects
 				(font
@@ -4478,7 +4478,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Murata Electronics"
+		(property "MFT" "Samsung"
 			(at 172.72 59.055 0)
 			(effects
 				(font
@@ -4536,7 +4536,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Liem:CAP0402"
+		(property "Footprint" "SAMPI:CAP0603"
 			(at 164.465 59.055 0)
 			(effects
 				(font
@@ -4558,7 +4558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 16V X7R 0402"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 164.465 59.055 0)
 			(effects
 				(font
@@ -4569,7 +4569,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "0402B104K160CT"
+		(property "MNP" "CL10B104KB8NNNC"
 			(at 164.465 59.055 0)
 			(effects
 				(font
@@ -4580,7 +4580,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Walsin Technology Corporation"
+		(property "MFT" "Samsung"
 			(at 164.465 59.055 0)
 			(effects
 				(font
@@ -4928,7 +4928,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5.1K, 1%"
+		(property "Value" "5.1K"
 			(at 49.53 56.5149 90)
 			(effects
 				(font
@@ -4939,7 +4939,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Liem:RES0402"
+		(property "Footprint" "SAMPI:RES0603"
 			(at 45.72 56.515 0)
 			(effects
 				(font
@@ -4961,7 +4961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 5.1K OHM 1% 1/16W 0402"
+		(property "Description" "RES 5.1K OHM 1% 1/10W 0603"
 			(at 45.72 56.515 0)
 			(effects
 				(font
@@ -4983,7 +4983,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "RC0402FR-075K1L"
+		(property "MNP" "RC0603FR-075K1L"
 			(at 45.72 56.515 0)
 			(effects
 				(font
@@ -5117,7 +5117,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Liem:SOT143B_NEXT"
+		(property "Footprint" "SAMPI:SOT143B_NEXT"
 			(at 54.61 55.245 0)
 			(effects
 				(font
@@ -5161,7 +5161,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Nexperia USA Inc."
+		(property "MFT" "Nexperia"
 			(at 54.61 36.195 0)
 			(effects
 				(font
@@ -5298,7 +5298,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Liem:CDFN3225-4LD-PL-1"
+		(property "Footprint" "SAMPI:CDFN3225-4LD-PL-1"
 			(at 137.16 62.23 0)
 			(effects
 				(font
@@ -5406,7 +5406,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Liem:CAP0402"
+		(property "Footprint" "SAMPI:CAP0603"
 			(at 167.64 36.195 0)
 			(effects
 				(font
@@ -5428,7 +5428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 16V X7R 0402"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 167.64 36.195 0)
 			(effects
 				(font
@@ -5439,7 +5439,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "0402B104K160CT"
+		(property "MNP" "CL10B104KB8NNNC"
 			(at 167.64 36.195 0)
 			(effects
 				(font
@@ -5450,7 +5450,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Walsin Technology Corporation"
+		(property "MFT" "Samsung"
 			(at 167.64 36.195 0)
 			(effects
 				(font
@@ -5572,7 +5572,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5.1K, 1%"
+		(property "Value" "5.1K"
 			(at 39.37 56.5149 90)
 			(effects
 				(font
@@ -5583,7 +5583,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Liem:RES0402"
+		(property "Footprint" "SAMPI:RES0603"
 			(at 35.56 56.515 0)
 			(effects
 				(font
@@ -5605,7 +5605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 5.1K OHM 1% 1/16W 0402"
+		(property "Description" "RES 5.1K OHM 1% 1/10W 0603"
 			(at 35.56 56.515 0)
 			(effects
 				(font
@@ -5627,7 +5627,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "RC0402FR-075K1L"
+		(property "MNP" "RC0603FR-075K1L"
 			(at 35.56 56.515 0)
 			(effects
 				(font
@@ -5682,7 +5682,7 @@
 				)
 			)
 		)
-		(property "Footprint" "tuanlib:TestPoint"
+		(property "Footprint" "SAMPI:TP1MM"
 			(at 99.695 59.69 0)
 			(effects
 				(font
@@ -5907,7 +5907,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Liem:DFN8_3x3_MCHP"
+		(property "Footprint" "SAMPI:DFN8_3x3_MCHP"
 			(at 83.185 52.07 0)
 			(effects
 				(font
@@ -6102,7 +6102,7 @@
 				)
 			)
 		)
-		(property "Footprint" "tuanlib:TestPoint"
+		(property "Footprint" "SAMPI:TP1MM"
 			(at 85.725 27.305 0)
 			(effects
 				(font
@@ -6253,7 +6253,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Liem:RES0402"
+		(property "Footprint" "SAMPI:RES0603"
 			(at 186.69 90.17 0)
 			(effects
 				(font
@@ -6275,7 +6275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 47K OHM 5% 1/16W 0402"
+		(property "Description" "RES 47K OHM 1% 1/10W 0603"
 			(at 186.69 90.17 0)
 			(effects
 				(font
@@ -6286,7 +6286,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Rohm Semiconductor"
+		(property "MFT" "YAGEO"
 			(at 186.69 90.17 0)
 			(effects
 				(font
@@ -6297,7 +6297,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "MCR01MZPJ473"
+		(property "MNP" "RC0603FR-0747KL"
 			(at 186.69 90.17 0)
 			(effects
 				(font
@@ -6581,7 +6581,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Liem:CAP0402"
+		(property "Footprint" "SAMPI:CAP0603"
 			(at 164.465 79.375 0)
 			(effects
 				(font
@@ -6603,7 +6603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 22PF 50V C0G/NPO 0402"
+		(property "Description" "CAP CER 22PF 50V C0G/NP0 0603"
 			(at 164.465 79.375 0)
 			(effects
 				(font
@@ -6614,7 +6614,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "AC0402JRNPO9BN220"
+		(property "MNP" "0603N220J500CT"
 			(at 164.465 79.375 0)
 			(effects
 				(font
@@ -6625,7 +6625,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "YAGEO"
+		(property "MFT" "Walsin"
 			(at 164.465 79.375 0)
 			(effects
 				(font
@@ -6755,7 +6755,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Liem:USB4105"
+		(property "Footprint" "SAMPI:USB4105"
 			(at 17.145 17.145 0)
 			(effects
 				(font
@@ -6898,7 +6898,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Liem:CAP2312-6032"
+		(property "Footprint" "SAMPI:CAP1411"
 			(at 110.49 60.96 0)
 			(effects
 				(font
@@ -7300,7 +7300,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Liem:RES0402"
+		(property "Footprint" "SAMPI:RES0603"
 			(at 199.39 90.17 0)
 			(effects
 				(font
@@ -7322,7 +7322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 47K OHM 5% 1/16W 0402"
+		(property "Description" "RES 47K OHM 1% 1/10W 0603"
 			(at 199.39 90.17 0)
 			(effects
 				(font
@@ -7333,7 +7333,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Rohm Semiconductor"
+		(property "MFT" "YAGEO"
 			(at 199.39 90.17 0)
 			(effects
 				(font
@@ -7344,7 +7344,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "MCR01MZPJ473"
+		(property "MNP" "RC0603FR-0747KL"
 			(at 199.39 90.17 0)
 			(effects
 				(font
@@ -7477,7 +7477,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Liem:RES0402"
+		(property "Footprint" "SAMPI:RES0603"
 			(at 172.72 26.035 0)
 			(effects
 				(font
@@ -7499,7 +7499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 100K OHM 5% 1/16W 0402"
+		(property "Description" "RES 100K OHM 1% 1/10W 0603"
 			(at 172.72 26.035 0)
 			(effects
 				(font
@@ -7510,7 +7510,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Rohm Semiconductor"
+		(property "MFT" "YAGEO"
 			(at 172.72 26.035 0)
 			(effects
 				(font
@@ -7521,7 +7521,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "MCR01MRTJ104"
+		(property "MNP" "RC0603FR-07100KL"
 			(at 172.72 26.035 0)
 			(effects
 				(font
@@ -7566,7 +7566,7 @@
 				)
 			)
 		)
-		(property "Value" "750mA"
+		(property "Value" "500mA"
 			(at 46.355 26.67 0)
 			(effects
 				(font
@@ -7576,7 +7576,7 @@
 				)
 			)
 		)
-		(property "Footprint" "tuanlib:FUSE_ 1206"
+		(property "Footprint" "SAMPI:FUSE0805"
 			(at 45.72 22.225 0)
 			(effects
 				(font
@@ -7598,7 +7598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "FUSE BOARD MNT 750MA 32VAC 63VDC"
+		(property "Description" "PTC RESET FUSE 6V 500MA 0805"
 			(at 45.72 22.225 0)
 			(effects
 				(font
@@ -7609,7 +7609,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "3413.0114.22"
+		(property "MNP" "0805L050WR"
 			(at 45.72 22.225 0)
 			(effects
 				(font
@@ -7620,7 +7620,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "SCHURTER Inc."
+		(property "MFT" "Littelfuse"
 			(at 45.72 22.225 0)
 			(effects
 				(font
@@ -7678,7 +7678,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Liem:RES0402"
+		(property "Footprint" "SAMPI:RES0603"
 			(at 73.66 31.115 0)
 			(effects
 				(font
@@ -7700,7 +7700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 100K OHM 5% 1/16W 0402"
+		(property "Description" "RES 100K OHM 1% 1/10W 0603"
 			(at 73.66 31.115 0)
 			(effects
 				(font
@@ -7711,7 +7711,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Rohm Semiconductor"
+		(property "MFT" "YAGEO"
 			(at 73.66 31.115 0)
 			(effects
 				(font
@@ -7722,7 +7722,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "MCR01MRTJ104"
+		(property "MNP" "RC0603FR-07100KL"
 			(at 73.66 31.115 0)
 			(effects
 				(font
@@ -8156,7 +8156,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Liem:RES0402"
+		(property "Footprint" "SAMPI:RES0603"
 			(at 210.82 81.28 0)
 			(effects
 				(font
@@ -8178,7 +8178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 47K OHM 5% 1/16W 0402"
+		(property "Description" "RES 47K OHM 1% 1/10W 0603"
 			(at 210.82 81.28 0)
 			(effects
 				(font
@@ -8189,7 +8189,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Rohm Semiconductor"
+		(property "MFT" "YAGEO"
 			(at 210.82 81.28 0)
 			(effects
 				(font
@@ -8200,7 +8200,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "MCR01MZPJ473"
+		(property "MNP" "RC0603FR-0747KL"
 			(at 210.82 81.28 0)
 			(effects
 				(font
@@ -8408,7 +8408,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Liem:CAP0402"
+		(property "Footprint" "SAMPI:CAP0603"
 			(at 142.875 79.375 0)
 			(effects
 				(font
@@ -8430,7 +8430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 6.3V X5R 0402"
+		(property "Description" "CAP CER 1UF 10V X7R 0603"
 			(at 142.875 79.375 0)
 			(effects
 				(font
@@ -8441,7 +8441,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "GRM155R60J105KE19D"
+		(property "MNP" "CL10B105KP8NNNC"
 			(at 142.875 79.375 0)
 			(effects
 				(font
@@ -8452,7 +8452,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Murata Electronics"
+		(property "MFT" "Samsung"
 			(at 142.875 79.375 0)
 			(effects
 				(font
@@ -8586,7 +8586,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Liem:CAP0402"
+		(property "Footprint" "SAMPI:CAP0603"
 			(at 156.21 59.055 0)
 			(effects
 				(font
@@ -8608,7 +8608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 16V X7R 0402"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 156.21 59.055 0)
 			(effects
 				(font
@@ -8619,7 +8619,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "0402B104K160CT"
+		(property "MNP" "CL10B104KB8NNNC"
 			(at 156.21 59.055 0)
 			(effects
 				(font
@@ -8630,7 +8630,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Walsin Technology Corporation"
+		(property "MFT" "Samsung"
 			(at 156.21 59.055 0)
 			(effects
 				(font
@@ -8839,7 +8839,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Liem:CAP0402"
+		(property "Footprint" "SAMPI:CAP0603"
 			(at 156.21 79.375 0)
 			(effects
 				(font
@@ -8861,7 +8861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 16V X7R 0402"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 156.21 79.375 0)
 			(effects
 				(font
@@ -8872,7 +8872,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "0402B104K160CT"
+		(property "MNP" "CL10B104KB8NNNC"
 			(at 156.21 79.375 0)
 			(effects
 				(font
@@ -8883,7 +8883,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Walsin Technology Corporation"
+		(property "MFT" "Samsung"
 			(at 156.21 79.375 0)
 			(effects
 				(font
@@ -9016,7 +9016,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Liem:CAP0603"
+		(property "Footprint" "SAMPI:CAP0603"
 			(at 73.66 63.5 0)
 			(effects
 				(font
@@ -9038,7 +9038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10UF 10V X5R 0603"
+		(property "Description" "CAP CER 10UF 6.3V X5R 0603"
 			(at 73.66 63.5 0)
 			(effects
 				(font
@@ -9049,7 +9049,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "C0603C106M8PACTU"
+		(property "MNP" "CL10A106MQ8NNNC"
 			(at 73.66 63.5 0)
 			(effects
 				(font
@@ -9060,7 +9060,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "KEMET"
+		(property "MFT" "Samsung"
 			(at 73.66 63.5 0)
 			(effects
 				(font
@@ -9117,7 +9117,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Liem:CAP2312-6032"
+		(property "Footprint" "SAMPI:CAP1411"
 			(at 88.265 28.575 0)
 			(effects
 				(font
@@ -9207,7 +9207,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "12K, 1%"
+		(property "Value" "12K"
 			(at 163.83 79.375 90)
 			(effects
 				(font
@@ -9218,7 +9218,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Liem:RES0402"
+		(property "Footprint" "SAMPI:RES0603"
 			(at 167.64 79.375 0)
 			(effects
 				(font
@@ -9240,7 +9240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 12K OHM 1% 1/16W 0402"
+		(property "Description" "RES 12K OHM 1% 1/10W 0603"
 			(at 167.64 79.375 0)
 			(effects
 				(font
@@ -9262,7 +9262,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "RC0402FR-0712KL"
+		(property "MNP" "RC0603FR-0712KL"
 			(at 167.64 79.375 0)
 			(effects
 				(font
@@ -9469,7 +9469,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Liem:CAP0402"
+		(property "Footprint" "SAMPI:CAP0603"
 			(at 137.16 53.975 0)
 			(effects
 				(font
@@ -9491,7 +9491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 22PF 50V C0G/NPO 0402"
+		(property "Description" "CAP CER 22PF 50V C0G/NP0 0603"
 			(at 137.16 53.975 0)
 			(effects
 				(font
@@ -9502,7 +9502,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "AC0402JRNPO9BN220"
+		(property "MNP" "0603N220J500CT"
 			(at 137.16 53.975 0)
 			(effects
 				(font
@@ -9513,7 +9513,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "YAGEO"
+		(property "MFT" "Walsin"
 			(at 137.16 53.975 0)
 			(effects
 				(font
@@ -9673,7 +9673,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Liem:RES0402"
+		(property "Footprint" "SAMPI:RES0603"
 			(at 73.66 41.275 0)
 			(effects
 				(font
@@ -9695,7 +9695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 100K OHM 5% 1/16W 0402"
+		(property "Description" "RES 100K OHM 1% 1/10W 0603"
 			(at 73.66 41.275 0)
 			(effects
 				(font
@@ -9706,7 +9706,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Rohm Semiconductor"
+		(property "MFT" "YAGEO"
 			(at 73.66 41.275 0)
 			(effects
 				(font
@@ -9717,7 +9717,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "MCR01MRTJ104"
+		(property "MNP" "RC0603FR-07100KL"
 			(at 73.66 41.275 0)
 			(effects
 				(font
@@ -9772,7 +9772,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.8x2.8mm"
+		(property "Footprint" "SAMPI:QFN-24-4x4-EP"
 			(at 200.025 34.925 0)
 			(effects
 				(font
@@ -9942,7 +9942,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Liem:CAP0402"
+		(property "Footprint" "SAMPI:CAP0603"
 			(at 134.62 79.375 0)
 			(effects
 				(font
@@ -9964,7 +9964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 22PF 50V C0G/NPO 0402"
+		(property "Description" "CAP CER 22PF 50V C0G/NP0 0603"
 			(at 134.62 79.375 0)
 			(effects
 				(font
@@ -9975,7 +9975,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "AC0402JRNPO9BN220"
+		(property "MNP" "0603N220J500CT"
 			(at 134.62 79.375 0)
 			(effects
 				(font
@@ -9986,7 +9986,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "YAGEO"
+		(property "MFT" "Walsin"
 			(at 134.62 79.375 0)
 			(effects
 				(font
@@ -10043,7 +10043,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Liem:CAP0402"
+		(property "Footprint" "SAMPI:CAP0603"
 			(at 92.71 31.115 0)
 			(effects
 				(font
@@ -10065,7 +10065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 16V X7R 0402"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 92.71 31.115 0)
 			(effects
 				(font
@@ -10076,7 +10076,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "0402B104K160CT"
+		(property "MNP" "CL10B104KB8NNNC"
 			(at 92.71 31.115 0)
 			(effects
 				(font
@@ -10087,7 +10087,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Walsin Technology Corporation"
+		(property "MFT" "Samsung"
 			(at 92.71 31.115 0)
 			(effects
 				(font
@@ -10145,7 +10145,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Liem:CAP0402"
+		(property "Footprint" "SAMPI:CAP0603"
 			(at 129.54 53.975 0)
 			(effects
 				(font
@@ -10167,7 +10167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 22PF 50V C0G/NPO 0402"
+		(property "Description" "CAP CER 22PF 50V C0G/NP0 0603"
 			(at 129.54 53.975 0)
 			(effects
 				(font
@@ -10178,7 +10178,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "AC0402JRNPO9BN220"
+		(property "MNP" "0603N220J500CT"
 			(at 129.54 53.975 0)
 			(effects
 				(font
@@ -10189,7 +10189,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "YAGEO"
+		(property "MFT" "Walsin"
 			(at 129.54 53.975 0)
 			(effects
 				(font
