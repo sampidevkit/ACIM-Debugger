@@ -601,7 +601,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -631,7 +631,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "MNP",
           "name": "MNP",
           "show": true
@@ -715,7 +715,7 @@
     ],
     [
       "41f97a9f-5331-4d01-9d06-5e4a321167bc",
-      "ISOLATOR"
+      "TERMINALS"
     ]
   ],
   "text_variables": {}

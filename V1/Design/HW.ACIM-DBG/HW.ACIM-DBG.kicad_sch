@@ -1755,7 +1755,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:TESTPOINT")
-		(at 161.29 146.05 270)
+		(at 93.98 152.4 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1763,7 +1763,7 @@
 		(dnp no)
 		(uuid "14dc8c43-e1e3-4a4b-a617-990d9b7373af")
 		(property "Reference" "TP6"
-			(at 163.195 144.78 90)
+			(at 95.885 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1773,7 +1773,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 163.83 147.32 90)
+			(at 96.52 153.67 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -1782,7 +1782,7 @@
 			)
 		)
 		(property "Footprint" "SAMPI:TP1MM"
-			(at 154.94 146.05 0)
+			(at 87.63 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1791,7 +1791,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 146.05 0)
+			(at 96.52 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1800,7 +1800,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 146.05 0)
+			(at 93.98 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1822,7 +1822,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:TESTPOINT")
-		(at 161.29 139.7 270)
+		(at 93.98 146.05 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1830,7 +1830,7 @@
 		(dnp no)
 		(uuid "1b9cfdea-1065-4195-be16-66674a6022da")
 		(property "Reference" "TP5"
-			(at 163.195 138.43 90)
+			(at 95.885 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1840,7 +1840,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 163.83 140.97 90)
+			(at 96.52 147.32 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -1849,7 +1849,7 @@
 			)
 		)
 		(property "Footprint" "SAMPI:TP1MM"
-			(at 154.94 139.7 0)
+			(at 87.63 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1858,7 +1858,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 139.7 0)
+			(at 96.52 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1867,7 +1867,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 139.7 0)
+			(at 93.98 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1889,7 +1889,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:TESTPOINT")
-		(at 135.89 127 270)
+		(at 93.98 158.75 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1897,7 +1897,7 @@
 		(dnp no)
 		(uuid "25c45d33-807a-4dfe-86f0-ceb0e4680c68")
 		(property "Reference" "TP1"
-			(at 137.795 125.73 90)
+			(at 95.885 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1907,7 +1907,7 @@
 			)
 		)
 		(property "Value" "3V3 ISO"
-			(at 138.43 128.27 90)
+			(at 96.52 160.02 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -1916,7 +1916,7 @@
 			)
 		)
 		(property "Footprint" "SAMPI:TP1MM"
-			(at 129.54 127 0)
+			(at 87.63 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1925,7 +1925,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 127 0)
+			(at 96.52 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1934,7 +1934,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.89 127 0)
+			(at 93.98 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2150,7 +2150,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:TESTPOINT")
-		(at 161.29 127 270)
+		(at 93.98 133.35 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2158,7 +2158,7 @@
 		(dnp no)
 		(uuid "42662fc1-16f1-4c5f-ab86-fd04e9898d84")
 		(property "Reference" "TP3"
-			(at 163.195 125.73 90)
+			(at 95.885 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2168,7 +2168,7 @@
 			)
 		)
 		(property "Value" "5V"
-			(at 163.83 128.27 90)
+			(at 96.52 134.62 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -2177,7 +2177,7 @@
 			)
 		)
 		(property "Footprint" "SAMPI:TP1MM"
-			(at 154.94 127 0)
+			(at 87.63 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2186,7 +2186,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 127 0)
+			(at 96.52 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2195,7 +2195,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 127 0)
+			(at 93.98 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2217,7 +2217,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:VTG")
-		(at 158.75 133.35 90)
+		(at 91.44 139.7 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2225,7 +2225,7 @@
 		(dnp no)
 		(uuid "4ac1b3b1-4aec-4190-a361-8bac42dfb277")
 		(property "Reference" "#PWR03"
-			(at 162.56 133.35 0)
+			(at 95.25 139.7 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2237,7 +2237,7 @@
 			)
 		)
 		(property "Value" "VTG"
-			(at 154.305 133.35 90)
+			(at 86.995 139.7 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -2247,7 +2247,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 133.35 0)
+			(at 91.44 139.7 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2258,7 +2258,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 133.35 0)
+			(at 91.44 139.7 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2269,7 +2269,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VTG\""
-			(at 158.75 133.35 0)
+			(at 91.44 139.7 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2390,7 +2390,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:+3V3_ISO")
-		(at 133.35 127 90)
+		(at 91.44 158.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2398,7 +2398,7 @@
 		(dnp no)
 		(uuid "5a63f48d-9002-4800-b2a8-f6e322d02954")
 		(property "Reference" "#PWR01"
-			(at 137.16 127 0)
+			(at 95.25 158.75 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2410,7 +2410,7 @@
 			)
 		)
 		(property "Value" "+3V3_ISO"
-			(at 130.175 127 90)
+			(at 88.265 158.75 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -2421,7 +2421,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 127 0)
+			(at 91.44 158.75 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2432,7 +2432,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 127 0)
+			(at 91.44 158.75 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2443,7 +2443,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3_ISO\""
-			(at 133.35 127 0)
+			(at 91.44 158.75 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2564,7 +2564,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 158.75 127 90)
+		(at 91.44 133.35 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2572,7 +2572,7 @@
 		(dnp no)
 		(uuid "836eaab0-414e-4197-bc7c-1acce31e81e7")
 		(property "Reference" "#PWR04"
-			(at 162.56 127 0)
+			(at 95.25 133.35 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2583,7 +2583,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 154.305 127 90)
+			(at 86.995 133.35 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -2593,7 +2593,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 127 0)
+			(at 91.44 133.35 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2604,7 +2604,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 127 0)
+			(at 91.44 133.35 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2615,7 +2615,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 127 0)
+			(at 91.44 133.35 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2639,7 +2639,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 158.75 146.05 270)
+		(at 91.44 152.4 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2647,7 +2647,7 @@
 		(dnp no)
 		(uuid "92d23a40-5516-430a-b0b7-055a8d810a87")
 		(property "Reference" "#PWR05"
-			(at 152.4 146.05 0)
+			(at 85.09 152.4 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2659,7 +2659,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.305 146.05 90)
+			(at 86.995 152.4 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -2669,7 +2669,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 146.05 0)
+			(at 91.44 152.4 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2680,7 +2680,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 146.05 0)
+			(at 91.44 152.4 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2691,7 +2691,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 146.05 0)
+			(at 91.44 152.4 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2909,7 +2909,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:TESTPOINT")
-		(at 161.29 133.35 270)
+		(at 93.98 139.7 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2917,7 +2917,7 @@
 		(dnp no)
 		(uuid "98954c5e-5352-439a-a7e1-de7374c0b186")
 		(property "Reference" "TP4"
-			(at 163.195 132.08 90)
+			(at 95.885 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2927,7 +2927,7 @@
 			)
 		)
 		(property "Value" "VTG(5V)"
-			(at 163.83 134.62 90)
+			(at 96.52 140.97 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -2936,7 +2936,7 @@
 			)
 		)
 		(property "Footprint" "SAMPI:TP1MM"
-			(at 154.94 133.35 0)
+			(at 87.63 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2945,7 +2945,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 133.35 0)
+			(at 96.52 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2954,7 +2954,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 133.35 0)
+			(at 93.98 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2976,7 +2976,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:GND_ISO")
-		(at 124.46 133.35 270)
+		(at 82.55 165.1 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2985,7 +2985,7 @@
 		(dnp no)
 		(uuid "9b976a3f-c070-4dab-bf53-b66b2d8d7fdd")
 		(property "Reference" "#PWR02"
-			(at 130.81 133.35 0)
+			(at 88.9 165.1 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -2997,7 +2997,7 @@
 			)
 		)
 		(property "Value" "GND_ISO"
-			(at 127.635 133.35 90)
+			(at 85.725 165.1 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -3007,7 +3007,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 133.35 0)
+			(at 91.44 165.1 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3018,7 +3018,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 133.35 0)
+			(at 91.44 165.1 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3029,7 +3029,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+GND_ISO\""
-			(at 124.46 133.35 0)
+			(at 82.55 165.1 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3053,7 +3053,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:TESTPOINT")
-		(at 135.89 133.35 270)
+		(at 93.98 165.1 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3061,7 +3061,7 @@
 		(dnp no)
 		(uuid "a096c776-b684-47a2-b9ad-0674ffdc0883")
 		(property "Reference" "TP2"
-			(at 137.795 132.08 90)
+			(at 95.885 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3071,7 +3071,7 @@
 			)
 		)
 		(property "Value" "GND ISO"
-			(at 138.43 134.62 90)
+			(at 96.52 166.37 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -3080,7 +3080,7 @@
 			)
 		)
 		(property "Footprint" "SAMPI:TP1MM"
-			(at 129.54 133.35 0)
+			(at 87.63 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3089,7 +3089,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 133.35 0)
+			(at 96.52 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3098,7 +3098,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.89 133.35 0)
+			(at 93.98 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3314,7 +3314,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 158.75 139.7 90)
+		(at 91.44 146.05 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3322,7 +3322,7 @@
 		(dnp no)
 		(uuid "ca36fbd1-24f7-48c4-bf0c-eaaf63175469")
 		(property "Reference" "#PWR06"
-			(at 162.56 139.7 0)
+			(at 95.25 146.05 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3334,7 +3334,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 153.67 139.7 90)
+			(at 86.36 146.05 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -3344,7 +3344,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 139.7 0)
+			(at 91.44 146.05 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3355,7 +3355,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 139.7 0)
+			(at 91.44 146.05 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3366,7 +3366,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 139.7 0)
+			(at 91.44 146.05 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -3548,7 +3548,7 @@
 			(color 150 255 150 1.0000)
 		)
 		(uuid "41f97a9f-5331-4d01-9d06-5e4a321167bc")
-		(property "Sheetname" "ISOLATOR"
+		(property "Sheetname" "TERMINALS"
 			(at 114.3 71.12 0)
 			(effects
 				(font
@@ -3560,7 +3560,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ISOLATOR.kicad_sch"
+		(property "Sheetfile" "TERMINALS.kicad_sch"
 			(at 114.3 72.39 0)
 			(effects
 				(font
