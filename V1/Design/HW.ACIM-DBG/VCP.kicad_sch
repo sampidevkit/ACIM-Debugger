@@ -8,7 +8,7 @@
 		(title "PROGRAMMER & DEBUGGER")
 		(date "2024-12-04")
 		(rev "0.1")
-		(company "TON DUC THANG UNIVERSITY")
+		(company "KiCad EDA")
 		(comment 1 "Schematic Designed by ...")
 		(comment 2 "PCB Designed by ...")
 		(comment 3 "Approved by ...")
@@ -2831,12 +2831,6 @@
 		(uuid "2eea3bf6-5425-4394-a9dd-d7fad9b99c98")
 	)
 	(junction
-		(at 153.035 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3116d38f-d5ee-48b5-bdcf-dea7a01e7545")
-	)
-	(junction
 		(at 186.69 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2865,6 +2859,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c11414e-73c9-44bd-a274-542e5fd946fc")
+	)
+	(junction
+		(at 142.875 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62eece82-05ca-479c-a5bb-05d13f0cfbdf")
 	)
 	(junction
 		(at 161.29 35.56)
@@ -2981,7 +2981,7 @@
 		(uuid "d7ca3ec3-91ec-4567-bf7f-3d39fac6a421")
 	)
 	(junction
-		(at 161.925 72.39)
+		(at 151.765 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dbacd23d-1d85-415a-9bef-9735123938e9")
@@ -3256,7 +3256,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.925 72.39) (xy 163.195 72.39)
+			(xy 151.765 72.39) (xy 153.035 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3293,16 +3293,6 @@
 			(type default)
 		)
 		(uuid "1bd28f57-f59e-4ef1-9c20-19258d32a84f")
-	)
-	(wire
-		(pts
-			(xy 94.615 77.47) (xy 95.885 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cd90962-bec6-4f5a-939d-e2b94cb9de29")
 	)
 	(wire
 		(pts
@@ -4076,7 +4066,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.925 72.39) (xy 161.925 73.66)
+			(xy 151.765 72.39) (xy 151.765 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4113,16 +4103,6 @@
 			(type default)
 		)
 		(uuid "91db6372-7348-46b9-bfa7-17a77d8d42a7")
-	)
-	(wire
-		(pts
-			(xy 94.615 72.39) (xy 95.885 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "924581bd-01e4-4ffa-9238-7a931beba1aa")
 	)
 	(wire
 		(pts
@@ -4206,7 +4186,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.035 72.39) (xy 153.035 73.66)
+			(xy 142.875 72.39) (xy 142.875 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4306,16 +4286,6 @@
 	)
 	(wire
 		(pts
-			(xy 94.615 82.55) (xy 95.885 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa27fe4e-c2fc-4ca2-a436-9b4a1312fc6a")
-	)
-	(wire
-		(pts
 			(xy 163.83 138.43) (xy 163.83 148.59)
 		)
 		(stroke
@@ -4343,6 +4313,16 @@
 			(type default)
 		)
 		(uuid "ab8d22da-b6e1-4f88-a058-9f0e21852982")
+	)
+	(wire
+		(pts
+			(xy 132.715 72.39) (xy 142.875 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad5ff63b-2322-47e6-b179-6cb0b57fdb84")
 	)
 	(wire
 		(pts
@@ -4576,17 +4556,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.715 72.39) (xy 153.035 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d206fb65-46f2-4d99-a504-1b8c17c8d67b")
-	)
-	(wire
-		(pts
-			(xy 153.035 72.39) (xy 161.925 72.39)
+			(xy 142.875 72.39) (xy 151.765 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4786,16 +4756,6 @@
 	)
 	(wire
 		(pts
-			(xy 94.615 74.93) (xy 95.885 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7b484ff-6c41-4c29-985c-c15f65b96c40")
-	)
-	(wire
-		(pts
 			(xy 232.41 78.74) (xy 232.41 80.01)
 		)
 		(stroke
@@ -4920,7 +4880,7 @@
 	)
 	(hierarchical_label "~{PWREN}"
 		(shape output)
-		(at 94.615 82.55 180)
+		(at 95.885 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4944,7 +4904,7 @@
 	)
 	(hierarchical_label "EECS"
 		(shape output)
-		(at 94.615 72.39 180)
+		(at 95.885 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4980,7 +4940,7 @@
 	)
 	(hierarchical_label "EEDATA"
 		(shape bidirectional)
-		(at 94.615 77.47 180)
+		(at 95.885 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5016,7 +4976,7 @@
 	)
 	(hierarchical_label "EECLK"
 		(shape output)
-		(at 94.615 74.93 180)
+		(at 95.885 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5148,7 +5108,7 @@
 	)
 	(hierarchical_label "VCP_VBUS"
 		(shape input)
-		(at 163.195 72.39 0)
+		(at 153.035 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5524,7 +5484,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 161.925 81.28 0)
+		(at 151.765 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5532,7 +5492,7 @@
 		(dnp no)
 		(uuid "0c5f5dae-b92f-4d6a-a9f9-2e19d84b9cbd")
 		(property "Reference" "#PWR0128"
-			(at 161.925 87.63 0)
+			(at 151.765 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5541,7 +5501,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 161.925 85.09 0)
+			(at 151.765 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5550,7 +5510,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.925 81.28 0)
+			(at 151.765 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5559,7 +5519,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.925 81.28 0)
+			(at 151.765 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5568,7 +5528,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.925 81.28 0)
+			(at 151.765 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8705,7 +8665,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:CERCAP")
-		(at 150.495 78.74 90)
+		(at 140.335 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8714,7 +8674,7 @@
 		(fields_autoplaced yes)
 		(uuid "791a3388-bbf2-409e-9eb4-d9f658fed8de")
 		(property "Reference" "C51"
-			(at 155.575 76.1999 90)
+			(at 145.415 76.1999 90)
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -8724,7 +8684,7 @@
 			)
 		)
 		(property "Value" "22pF"
-			(at 155.575 78.7399 90)
+			(at 145.415 78.7399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8733,7 +8693,7 @@
 			)
 		)
 		(property "Footprint" "SAMPI:CAP0603"
-			(at 150.495 78.74 0)
+			(at 140.335 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8742,7 +8702,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 150.495 78.74 0)
+			(at 140.335 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8751,7 +8711,7 @@
 			)
 		)
 		(property "Description" "CAP CER 22PF 50V C0G/NP0 0603"
-			(at 150.495 78.74 0)
+			(at 140.335 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8760,7 +8720,7 @@
 			)
 		)
 		(property "MNP" "0603N220J500CT"
-			(at 150.495 78.74 0)
+			(at 140.335 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8769,7 +8729,7 @@
 			)
 		)
 		(property "MFT" "Walsin"
-			(at 150.495 78.74 0)
+			(at 140.335 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12378,7 +12338,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 153.035 81.28 0)
+		(at 142.875 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12386,7 +12346,7 @@
 		(dnp no)
 		(uuid "fca164e1-9715-43ab-95ec-5571c8d4af11")
 		(property "Reference" "#PWR0124"
-			(at 153.035 87.63 0)
+			(at 142.875 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12395,7 +12355,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 153.035 85.09 0)
+			(at 142.875 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12404,7 +12364,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.035 81.28 0)
+			(at 142.875 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12413,7 +12373,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.035 81.28 0)
+			(at 142.875 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12422,7 +12382,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.035 81.28 0)
+			(at 142.875 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12597,7 +12557,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:RES")
-		(at 159.385 76.2 90)
+		(at 149.225 76.2 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12606,7 +12566,7 @@
 		(dnp no)
 		(uuid "fe7a0131-323b-45e3-9ff2-7472e98bc90a")
 		(property "Reference" "R48"
-			(at 165.735 76.2 90)
+			(at 155.575 76.2 90)
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -12615,7 +12575,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 165.735 78.74 90)
+			(at 155.575 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12623,7 +12583,7 @@
 			)
 		)
 		(property "Footprint" "SAMPI:RES0603"
-			(at 159.385 76.2 0)
+			(at 149.225 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12632,7 +12592,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 159.385 76.2 0)
+			(at 149.225 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12641,7 +12601,7 @@
 			)
 		)
 		(property "Description" "RES 100K OHM 1% 1/10W 0603"
-			(at 159.385 76.2 0)
+			(at 149.225 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12650,7 +12610,7 @@
 			)
 		)
 		(property "MNP" "RC0603FR-07100KL"
-			(at 159.385 76.2 0)
+			(at 149.225 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12659,7 +12619,7 @@
 			)
 		)
 		(property "MFT" "YAGEO"
-			(at 159.385 76.2 0)
+			(at 149.225 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
