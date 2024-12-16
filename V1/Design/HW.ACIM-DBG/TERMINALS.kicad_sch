@@ -7341,7 +7341,7 @@
 		(uuid "fcff5f97-e761-429a-af8f-68ed37f534af")
 	)
 	(rectangle
-		(start 85.725 24.765)
+		(start 100.965 24.765)
 		(end 188.595 127)
 		(stroke
 			(width 0)
