@@ -5543,6 +5543,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 43.18 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a5b717fe-d427-499a-b405-7e83ad04b33b")
 		)
@@ -5901,6 +5910,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 186.69 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aef4655e-83e9-4efd-ba2d-5e6dd4623241")
 		)
@@ -5982,6 +6000,15 @@
 			)
 		)
 		(property "MFT" " Harvatek"
+			(at 226.06 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 226.06 66.04 0)
 			(effects
 				(font
@@ -6083,6 +6110,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 217.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b8166360-7424-4270-935e-04b06f2c4137")
 		)
@@ -6162,6 +6198,15 @@
 			)
 		)
 		(property "MNP" "AC0603FR-071K1L"
+			(at 76.2 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 76.2 67.31 0)
 			(effects
 				(font
@@ -6252,6 +6297,15 @@
 			)
 		)
 		(property "MFT" "Walsin"
+			(at 46.99 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 46.99 46.99 0)
 			(effects
 				(font
@@ -6547,6 +6601,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 180.34 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "721e72d2-694e-48bc-9682-1cb9cfcc77bc")
 		)
@@ -6633,6 +6696,15 @@
 			)
 		)
 		(property "MFT" "Samsung"
+			(at 150.495 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 150.495 154.94 0)
 			(effects
 				(font
@@ -6787,6 +6859,15 @@
 			)
 		)
 		(property "MFT" "FTDI"
+			(at 98.425 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 98.425 64.77 0)
 			(effects
 				(font
@@ -7115,6 +7196,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 24.765 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "70178b5d-3880-4ee7-b5ea-774d7399bf9c")
 		)
@@ -7194,6 +7284,15 @@
 			)
 		)
 		(property "MFT" "YAGEO"
+			(at 80.645 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 80.645 39.37 0)
 			(effects
 				(font
@@ -7291,6 +7390,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 45.085 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d4d77462-b1ca-47ad-8574-807686d86794")
 		)
@@ -7336,7 +7444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SAMPI:SOT23"
 			(at 82.55 80.01 0)
 			(effects
 				(font
@@ -7354,7 +7462,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DISCRETE MOSFET SMD SOT23-3 SINGLE N-CH 40Vdss 5.6A 1.25W 2.5Vgs@250uA"
+			(at 82.55 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "VISHAY"
+			(at 82.55 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "SI2318CDS-T1-GE3"
+			(at 82.55 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 82.55 80.01 0)
 			(effects
 				(font
@@ -7455,6 +7590,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 172.085 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "928a17ab-1479-4167-82e4-dbb7a3c7b921")
 		)
@@ -7534,6 +7678,15 @@
 			)
 		)
 		(property "MFT" "YAGEO"
+			(at 94.615 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 94.615 39.37 0)
 			(effects
 				(font
@@ -7623,6 +7776,15 @@
 			)
 		)
 		(property "MFT" "Walsin"
+			(at 24.765 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 24.765 134.62 0)
 			(effects
 				(font
@@ -7849,6 +8011,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 31.75 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1d53cbef-f6bc-47e9-ae8b-6c24848dbf94")
 		)
@@ -7930,6 +8101,15 @@
 			)
 		)
 		(property "MFT" " Harvatek"
+			(at 210.82 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 210.82 66.04 0)
 			(effects
 				(font
@@ -8033,6 +8213,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 45.085 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3346437d-fd3b-412c-a7cd-c6b930394885")
 		)
@@ -8112,6 +8301,15 @@
 			)
 		)
 		(property "MNP" "AC0603FR-071K1L"
+			(at 232.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 232.41 57.15 0)
 			(effects
 				(font
@@ -8209,6 +8407,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 24.765 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bf3ea30c-4909-4482-aad1-71630a5b2ec2")
 		)
@@ -8290,6 +8497,15 @@
 			)
 		)
 		(property "MFT" "Samsung"
+			(at 45.085 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 45.085 134.62 0)
 			(effects
 				(font
@@ -8651,6 +8867,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 34.925 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b26bc327-4746-49a2-9d26-66ca84559e0a")
 		)
@@ -8798,6 +9023,15 @@
 			)
 		)
 		(property "MFT" "Samsung"
+			(at 34.925 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 34.925 134.62 0)
 			(effects
 				(font
@@ -9027,6 +9261,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 140.335 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "84744125-e859-4fff-b582-eeece5d3bff6")
 		)
@@ -9113,6 +9356,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 219.71 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "458159bc-b381-446c-bf6e-d5f87f1cbad5")
 		)
@@ -9191,6 +9443,15 @@
 			)
 		)
 		(property "MFT" "Pulse"
+			(at 31.75 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 31.75 104.14 0)
 			(effects
 				(font
@@ -9310,7 +9571,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SAMPI:LED3MM"
+		(property "Footprint" "SAMPI:LED0603"
 			(at 76.2 74.295 0)
 			(effects
 				(font
@@ -9361,6 +9622,15 @@
 					(face "Consolas")
 					(size 1.016 1.016)
 					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 76.2 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -9518,6 +9788,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 201.93 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3141a189-66a9-4492-848a-a03e42e8532f")
 		)
@@ -9596,6 +9875,15 @@
 			)
 		)
 		(property "MNP" "74HC595PW,118"
+			(at 165.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 165.1 29.21 0)
 			(effects
 				(font
@@ -9932,6 +10220,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 204.47 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "58db74ed-46b5-407e-afe3-e092870e308c")
 		)
@@ -10087,6 +10384,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 148.59 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cb6c86d6-6fab-480f-8933-133288a5ac67")
 		)
@@ -10166,6 +10472,15 @@
 			)
 		)
 		(property "MFT" "YAGEO"
+			(at 85.725 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 85.725 45.72 0)
 			(effects
 				(font
@@ -10527,6 +10842,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 127.635 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "70804a2d-396f-4569-9cd6-3ce0e639be23")
 		)
@@ -10613,6 +10937,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 31.75 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fb4ced65-d36e-47dc-b309-4562f362f954")
 		)
@@ -10691,6 +11024,15 @@
 			)
 		)
 		(property "MNP" "AC0603FR-071K1L"
+			(at 234.95 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 234.95 57.15 0)
 			(effects
 				(font
@@ -10985,6 +11327,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 121.285 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "12d90e25-4e89-4daa-889a-99c875d5a135")
 		)
@@ -11066,6 +11417,15 @@
 			)
 		)
 		(property "MFT" "Samsung"
+			(at 54.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 54.61 93.98 0)
 			(effects
 				(font
@@ -11230,6 +11590,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 45.085 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "09a176ef-ae47-40d2-bce1-c4d646811d51")
 		)
@@ -11317,6 +11686,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 140.335 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8b2461ef-bd2e-4977-b987-5f06539a4d31")
 		)
@@ -11395,6 +11773,15 @@
 			)
 		)
 		(property "MFT" "MCHP"
+			(at 98.425 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 98.425 34.925 0)
 			(effects
 				(font
@@ -11503,6 +11890,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 161.29 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8424bf5a-6917-4714-9b6b-a9a69e9535be")
 		)
@@ -11581,6 +11977,15 @@
 			)
 		)
 		(property "MFT" "Pulse"
+			(at 31.75 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 31.75 124.46 0)
 			(effects
 				(font
@@ -11810,6 +12215,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 195.58 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "244e2ddf-0cd4-4d6b-9b25-7b65c4973e5d")
 		)
@@ -11964,6 +12378,15 @@
 			)
 		)
 		(property "MFT" "Walsin"
+			(at 24.765 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 24.765 154.94 0)
 			(effects
 				(font
@@ -12128,6 +12551,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 54.61 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "054bacd3-06e1-474e-b62b-6a9d989a3d89")
 		)
@@ -12283,6 +12715,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 34.925 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "40ccd453-c3b5-4ddc-a0b1-21d6863725cc")
 		)
@@ -12361,6 +12802,15 @@
 			)
 		)
 		(property "MNP" "AC0603FR-071K1L"
+			(at 189.23 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 189.23 57.15 0)
 			(effects
 				(font
@@ -12450,6 +12900,15 @@
 			)
 		)
 		(property "MFT" "Samsung"
+			(at 34.925 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 34.925 114.3 0)
 			(effects
 				(font
@@ -12743,6 +13202,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 157.48 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ff8d2a89-a7f2-4b02-a046-a37f3d98bc9b")
 		)
@@ -12822,6 +13290,15 @@
 			)
 		)
 		(property "MFT" "YAGEO"
+			(at 149.225 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 149.225 76.2 0)
 			(effects
 				(font

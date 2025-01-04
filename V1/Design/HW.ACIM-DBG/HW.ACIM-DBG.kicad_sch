@@ -1741,6 +1741,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 98.425 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "HW.ACIM-DBG"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
@@ -1797,6 +1806,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 93.98 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 93.98 152.4 0)
 			(effects
 				(font
@@ -1872,6 +1890,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 93.98 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7aeffa4f-8a38-4a09-a469-d0d427c7ed90")
 		)
@@ -1931,6 +1958,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 93.98 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 93.98 158.75 0)
 			(effects
 				(font
@@ -2039,6 +2075,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 79.375 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "HW.ACIM-DBG"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
@@ -2136,6 +2181,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 98.425 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "HW.ACIM-DBG"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
@@ -2192,6 +2246,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 93.98 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 93.98 133.35 0)
 			(effects
 				(font
@@ -2376,6 +2439,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 85.725 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "HW.ACIM-DBG"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
@@ -2546,6 +2618,15 @@
 					(face "Consolas")
 					(size 1.016 1.016)
 					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 79.375 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -2798,6 +2879,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 79.375 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
@@ -2895,6 +2985,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 85.725 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "HW.ACIM-DBG"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
@@ -2951,6 +3050,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 93.98 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 93.98 139.7 0)
 			(effects
 				(font
@@ -3103,6 +3211,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 93.98 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9bc84f13-8f40-45f7-9fc9-52bebc430585")
 		)
@@ -3203,6 +3320,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 92.075 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "HW.ACIM-DBG"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
@@ -3296,6 +3422,15 @@
 					(face "Consolas")
 					(size 1.016 1.016)
 					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 92.075 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
