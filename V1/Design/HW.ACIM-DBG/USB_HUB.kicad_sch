@@ -3562,7 +3562,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "SAMPI:DFN10-EP-3x3"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3592,7 +3592,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "SIP32434ADN-T1E4"
+			(property "MNP" "SIP32434ADN-T1E4"
 				(at 0 -1.905 0)
 				(effects
 					(font
@@ -3608,6 +3608,15 @@
 					(font
 						(face "Consolas")
 						(size 1.016 1.016)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 					(hide yes)
 				)
@@ -3766,7 +3775,7 @@
 				(pin input line
 					(at -11.43 -33.02 0)
 					(length 2.54)
-					(name "EN/UVLO"
+					(name "EN/UVLO(1V25)"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3820,7 +3829,7 @@
 				(pin input line
 					(at -11.43 -17.78 0)
 					(length 2.54)
-					(name "OVP"
+					(name "OVP(1V2)"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4698,6 +4707,12 @@
 		(uuid "464d2ba9-845a-4e49-b6f4-6d815800e7a3")
 	)
 	(junction
+		(at 100.33 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4adcc009-5c22-43f8-a5ee-67b8cfaedb85")
+	)
+	(junction
 		(at 267.97 104.775)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4794,7 +4809,7 @@
 		(uuid "8544d173-d71c-43de-b94d-7c9b29fade15")
 	)
 	(junction
-		(at 215.9 59.69)
+		(at 219.71 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "86139399-229b-4d1a-ae92-dad6ffeb40f6")
@@ -5049,7 +5064,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 59.69) (xy 215.9 60.96)
+			(xy 219.71 59.69) (xy 219.71 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5289,7 +5304,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 59.69) (xy 215.9 59.69)
+			(xy 227.33 59.69) (xy 219.71 59.69)
 		)
 		(stroke
 			(width 0)
@@ -6239,7 +6254,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 58.42) (xy 215.9 59.69)
+			(xy 219.71 58.42) (xy 219.71 59.69)
 		)
 		(stroke
 			(width 0)
@@ -6669,6 +6684,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 64.77) (xy 101.6 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdce559e-c216-49af-9a67-8557704d839d")
+	)
+	(wire
+		(pts
 			(xy 35.56 32.385) (xy 34.29 32.385)
 		)
 		(stroke
@@ -7086,6 +7111,17 @@
 			(type default)
 		)
 		(uuid "ff5510c3-40cd-4dd3-8e26-23f57b57a25e")
+	)
+	(text "Rovpt=(Rovpb*(Vinmax-Vovp))/Vovp\nRovpb=10k\nVovp=1.2V\nVinmax=6V\nRovpt=(10k*(6-1.2))/1.2\n=40k\n=> Rovpt=40.2k\n\nIlim=20600*Vocp/Rset\nVocp=0.6V\n=> Rset=20600*Vocp/Ilim\n=20600*0.6/3\n=4120Ohm"
+		(exclude_from_sim no)
+		(at 146.05 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "46af13a5-7c31-40b8-9de3-1ed420576453")
 	)
 	(hierarchical_label "USB_P"
 		(shape bidirectional)
@@ -7609,6 +7645,81 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 109.22 64.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "035000a8-2dd4-4321-a477-94377dc7ad0f")
+		(property "Reference" "#PWR069"
+			(at 115.57 64.77 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.665 64.77 90)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 64.77 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 64.77 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 64.77 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16a81dff-4d75-4d43-9f29-b4c23378a681")
+		)
+		(instances
+			(project "HW.ACIM-DBG"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/34b63420-23a7-4d2d-affc-c07be2bf5f59"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 217.17 152.4 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7740,73 +7851,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 143.51 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "169b1ee2-25dc-47db-a991-fea115e14a55")
-		(property "Reference" "#PWR019"
-			(at 143.51 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 143.51 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 143.51 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "49b78cf1-4782-4f3a-9985-deeeaf46cea7")
-		)
-		(instances
-			(project "HW.ACIM-DBG"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/34b63420-23a7-4d2d-affc-c07be2bf5f59"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 215.9 68.58 0)
+		(at 219.71 68.58 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7815,7 +7861,7 @@
 		(dnp no)
 		(uuid "1855b6f8-330f-4fba-93a9-12d47b71c2f2")
 		(property "Reference" "#PWR040"
-			(at 215.9 74.93 0)
+			(at 219.71 74.93 0)
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -7825,7 +7871,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 215.9 72.39 0)
+			(at 219.71 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7834,7 +7880,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 68.58 0)
+			(at 219.71 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7843,7 +7889,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 68.58 0)
+			(at 219.71 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7852,7 +7898,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 215.9 68.58 0)
+			(at 219.71 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8377,71 +8423,6 @@
 			(project "HW.ACIM-DBG"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/34b63420-23a7-4d2d-affc-c07be2bf5f59"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 92.71 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "24da27d7-0e1d-41f2-b602-838868aa9f98")
-		(property "Reference" "#PWR050"
-			(at 92.71 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 92.71 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 92.71 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c822aace-bebd-4992-9965-23dd7a5c89c4")
-		)
-		(instances
-			(project "HW.ACIM-DBG"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/34b63420-23a7-4d2d-affc-c07be2bf5f59"
-					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -9680,7 +9661,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:RES")
-		(at 218.44 53.34 270)
+		(at 222.25 53.34 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9688,7 +9669,7 @@
 		(dnp no)
 		(uuid "4ab8e2b7-296a-484e-9319-a11b0e44070b")
 		(property "Reference" "R5"
-			(at 212.725 53.975 90)
+			(at 216.535 53.975 90)
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -9697,7 +9678,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 212.725 56.515 90)
+			(at 216.535 56.515 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9705,7 +9686,7 @@
 			)
 		)
 		(property "Footprint" "SAMPI:RES0603"
-			(at 218.44 53.34 0)
+			(at 222.25 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9714,7 +9695,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 53.34 0)
+			(at 222.25 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9723,7 +9704,7 @@
 			)
 		)
 		(property "Description" "RES 10K OHM 1% 1/10W 0603"
-			(at 218.44 53.34 0)
+			(at 222.25 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9732,7 +9713,7 @@
 			)
 		)
 		(property "MNP" "RC0603FR-0710KL"
-			(at 218.44 53.34 0)
+			(at 222.25 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9741,7 +9722,7 @@
 			)
 		)
 		(property "MFT" "YAGEO"
-			(at 218.44 53.34 0)
+			(at 222.25 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9750,7 +9731,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 218.44 53.34 0)
+			(at 222.25 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9768,6 +9749,81 @@
 			(project "HW.ACIM-DBG"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/34b63420-23a7-4d2d-affc-c07be2bf5f59"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 100.33 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b7a5ce6-5336-4a20-ab24-8fe0c1f4cf59")
+		(property "Reference" "#PWR050"
+			(at 100.33 93.98 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 100.33 86.36 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 90.17 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 90.17 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 100.33 90.17 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d43f7ff-a69c-407e-b83b-3ed7b63fdd5b")
+		)
+		(instances
+			(project "HW.ACIM-DBG"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/34b63420-23a7-4d2d-affc-c07be2bf5f59"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -10504,6 +10560,81 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 92.71 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c316166-29aa-44e5-80e4-66b10dc1a0e1")
+		(property "Reference" "#PWR058"
+			(at 92.71 93.98 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 92.71 86.36 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 90.17 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 90.17 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 92.71 90.17 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f65d1ed2-e051-4691-9eaa-c27d3c040223")
+		)
+		(instances
+			(project "HW.ACIM-DBG"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/34b63420-23a7-4d2d-affc-c07be2bf5f59"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SAMPI:RLED")
 		(at 180.34 33.02 0)
 		(unit 1)
@@ -10809,7 +10940,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 215.9 50.8 0)
+		(at 219.71 50.8 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10818,7 +10949,7 @@
 		(dnp no)
 		(uuid "652ad981-3169-4a88-a7d2-2f534d1c3387")
 		(property "Reference" "#PWR039"
-			(at 215.9 54.61 0)
+			(at 219.71 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10827,7 +10958,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 215.9 46.99 0)
+			(at 219.71 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10836,7 +10967,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 50.8 0)
+			(at 219.71 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10845,7 +10976,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 50.8 0)
+			(at 219.71 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10854,7 +10985,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 215.9 50.8 0)
+			(at 219.71 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11053,6 +11184,81 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 143.51 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a24eef3-9c27-493c-8731-87cb3172d6fb")
+		(property "Reference" "#PWR019"
+			(at 143.51 99.06 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 143.51 91.44 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 95.25 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 95.25 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 143.51 95.25 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.127)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63011ed9-76bf-4eca-a1ac-6a09aa91e985")
+		)
+		(instances
+			(project "HW.ACIM-DBG"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/34b63420-23a7-4d2d-affc-c07be2bf5f59"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SAMPI:CERCAP")
 		(at 83.82 64.77 90)
 		(unit 1)
@@ -11062,7 +11268,7 @@
 		(dnp no)
 		(uuid "6a910ac7-27a3-45db-934f-b2fd4aafda6d")
 		(property "Reference" "C17"
-			(at 88.9 62.865 90)
+			(at 88.265 62.865 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -11570,7 +11776,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5.1K"
+		(property "Value" "10K, 1%"
 			(at 85.09 43.815 90)
 			(effects
 				(font
@@ -11779,7 +11985,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "35.7K"
+		(property "Value" "40.2K, 1%"
 			(at 85.09 33.655 90)
 			(effects
 				(font
@@ -14049,71 +14255,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 100.33 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a774fcb6-aad4-475d-9777-623ea50a5f03")
-		(property "Reference" "#PWR058"
-			(at 100.33 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 100.33 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 100.33 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8dabb891-a7b2-4550-ae14-7b4da3df4116")
-		)
-		(instances
-			(project "HW.ACIM-DBG"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/34b63420-23a7-4d2d-affc-c07be2bf5f59"
-					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 278.13 103.505 0)
 		(mirror y)
@@ -14881,7 +15022,7 @@
 	)
 	(symbol
 		(lib_id "SAMPI:CERCAP")
-		(at 213.36 66.04 90)
+		(at 217.17 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14889,7 +15030,7 @@
 		(dnp no)
 		(uuid "c51093d2-d8db-4dce-a5b2-2c640d342f2e")
 		(property "Reference" "C38"
-			(at 210.185 63.5 90)
+			(at 213.995 63.5 90)
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -14899,7 +15040,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 208.915 66.04 90)
+			(at 212.725 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14908,7 +15049,7 @@
 			)
 		)
 		(property "Footprint" "SAMPI:CAP0603"
-			(at 213.36 66.04 0)
+			(at 217.17 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14917,7 +15058,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 66.04 0)
+			(at 217.17 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14926,7 +15067,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-			(at 213.36 66.04 0)
+			(at 217.17 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14935,7 +15076,7 @@
 			)
 		)
 		(property "MNP" "CL10B104KB8NNNC"
-			(at 213.36 66.04 90)
+			(at 217.17 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14944,7 +15085,7 @@
 			)
 		)
 		(property "MFT" "Samsung"
-			(at 213.36 66.04 0)
+			(at 217.17 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14953,7 +15094,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 213.36 66.04 0)
+			(at 217.17 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16652,6 +16793,102 @@
 			(project "HW.ACIM-DBG"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/34b63420-23a7-4d2d-affc-c07be2bf5f59"
 					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SAMPI:RES")
+		(at 104.14 67.31 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f336c99a-a8fb-48b1-820c-245f5aa77422")
+		(property "Reference" "R30"
+			(at 105.41 62.23 0)
+			(effects
+				(font
+					(size 1.5 1.5)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "100K"
+			(at 105.41 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SAMPI:RES0603"
+			(at 104.14 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 100K OHM 1% 1/10W 0603"
+			(at 104.14 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "RC0603FR-07100KL"
+			(at 104.14 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "YAGEO"
+			(at 104.14 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 104.14 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b898455-ce58-494d-9e27-5bd9581665fa")
+		)
+		(pin "2"
+			(uuid "4b922712-1307-44ca-afe9-607e25f81b4a")
+		)
+		(instances
+			(project "HW.ACIM-DBG"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c/34b63420-23a7-4d2d-affc-c07be2bf5f59"
+					(reference "R30")
 					(unit 1)
 				)
 			)
