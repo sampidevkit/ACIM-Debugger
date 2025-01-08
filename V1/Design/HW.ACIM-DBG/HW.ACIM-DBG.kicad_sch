@@ -11,296 +11,6 @@
 		(company "KiCad EDA")
 	)
 	(lib_symbols
-		(symbol "SAMPI:+3V3_ISO"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3V3_ISO"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(bold yes)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3_ISO\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3V3_ISO_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3_ISO_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "+3V3_ISO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "SAMPI:GND_ISO"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND_ISO"
-				(at 0 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(bold yes)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+GND_ISO\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_ISO_0_1"
-				(polyline
-					(pts
-						(xy -1.27 7.62) (xy -1.905 6.985)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 7.62) (xy 1.27 7.62)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 7.62) (xy -1.27 6.985)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 7.62) (xy -0.635 6.985)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 8.89) (xy 0 7.62)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 7.62) (xy 0 6.985)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 7.62) (xy 0.635 6.985)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_ISO_1_1"
-				(pin power_in line
-					(at 0 8.89 270)
-					(length 0) hide
-					(name "GND_ISO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "SAMPI:SCREWHOLDER"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -969,124 +679,74 @@
 		)
 	)
 	(no_connect
-		(at 76.2 66.04)
-		(uuid "075ef565-43e5-4d26-9c1f-5474772ee049")
+		(at 76.2 60.325)
+		(uuid "04d9a31f-22ef-4bc9-8b10-010b5a397afd")
 	)
 	(no_connect
 		(at 151.13 40.64)
-		(uuid "21d8106d-e3c9-4806-9397-c35d50ba3227")
-	)
-	(no_connect
-		(at 148.59 40.64)
-		(uuid "243fc35c-4ac0-4ead-bcf4-a6edef42b360")
-	)
-	(no_connect
-		(at 139.7 107.95)
-		(uuid "2a57b278-56d6-4e2d-bb53-b3ba3bd7ae7f")
-	)
-	(no_connect
-		(at 143.51 40.64)
-		(uuid "3e8ab36e-b4ba-42d1-8fb3-1fdccf7ac7c0")
-	)
-	(no_connect
-		(at 158.75 99.695)
-		(uuid "4f6d3e28-2435-4562-a38f-b331888fe089")
-	)
-	(no_connect
-		(at 137.16 107.95)
-		(uuid "50dbfd6c-20db-47bd-84da-77932fae0c2a")
-	)
-	(no_connect
-		(at 146.05 40.64)
-		(uuid "5b6842d9-2c01-434a-9462-a7f9af56773e")
-	)
-	(no_connect
-		(at 158.75 94.615)
-		(uuid "5e100c33-ebf2-4c14-84d6-07e5875450a7")
-	)
-	(no_connect
-		(at 144.78 107.95)
-		(uuid "65371676-c3e4-4a01-86c3-ce1047a6fc5b")
-	)
-	(no_connect
-		(at 138.43 40.64)
-		(uuid "660b02d8-c225-4ce4-84d6-34bc753ef7be")
-	)
-	(no_connect
-		(at 158.75 97.155)
-		(uuid "684e7d31-3820-42ea-9302-120c4c8ad1a8")
-	)
-	(no_connect
-		(at 142.24 107.95)
-		(uuid "75a0d455-1911-4291-81ed-d6cd170e1757")
-	)
-	(no_connect
-		(at 140.97 40.64)
-		(uuid "77662c72-1b43-4d3e-9f8e-1312acdc9e25")
-	)
-	(no_connect
-		(at 153.67 40.64)
-		(uuid "79a3ffbf-9cb8-4610-bfff-2cbde05bc872")
-	)
-	(no_connect
-		(at 76.2 63.5)
-		(uuid "9c165c74-239b-47cd-956b-1eccd5414a14")
-	)
-	(no_connect
-		(at 158.75 104.775)
-		(uuid "bb9c6b44-ed6c-4432-b668-fd2968b7e865")
-	)
-	(no_connect
-		(at 76.2 60.96)
-		(uuid "cbd74f41-dc91-4947-9cb0-6513d7d73a80")
+		(uuid "293fb5f0-8b40-4232-b319-5b845f5f4c2e")
 	)
 	(no_connect
 		(at 156.21 40.64)
-		(uuid "cc59728f-7b90-4010-b9e2-96eca9e0b008")
+		(uuid "2c8ea211-4ccb-4695-a79a-b9eb85c1cd75")
 	)
 	(no_connect
-		(at 135.89 40.64)
-		(uuid "daa2fd22-7bde-4443-bf7a-d38db670255e")
+		(at 158.75 87.63)
+		(uuid "482b3854-a9c5-48fc-9809-ee0978573748")
 	)
 	(no_connect
-		(at 158.75 102.235)
-		(uuid "e52d2e13-5839-40bf-82de-f371843b9a85")
+		(at 158.75 90.17)
+		(uuid "4b323e12-a875-42e0-8c1d-1fdb8f4ca64a")
 	)
 	(no_connect
-		(at 158.75 92.075)
-		(uuid "f21135c6-fd2d-4292-a516-f3581d8386b9")
+		(at 158.75 92.71)
+		(uuid "608d434d-d6b4-4671-8bbf-4ee57548f09c")
 	)
 	(no_connect
-		(at 158.75 89.535)
-		(uuid "f8e8c946-1e66-424c-b85c-91f81b9399fb")
+		(at 76.2 62.865)
+		(uuid "745aec53-aea2-4f6d-bb48-aadba3056f4d")
 	)
 	(no_connect
-		(at 158.75 86.995)
-		(uuid "fc79bda8-2be6-415a-955e-cbff81b72f20")
+		(at 76.2 65.405)
+		(uuid "849727eb-3620-4c32-967c-62ebc5d3298d")
 	)
 	(no_connect
-		(at 158.75 84.455)
-		(uuid "fcc11f25-93b2-408f-9e43-fe7c3a1d4167")
+		(at 158.75 95.25)
+		(uuid "855ba0c6-90bb-4397-9a4f-c7b6e40ee0ba")
 	)
-	(polyline
+	(no_connect
+		(at 146.05 40.64)
+		(uuid "8b3ecb6f-486a-4cce-a303-2e6269d5b935")
+	)
+	(no_connect
+		(at 148.59 40.64)
+		(uuid "95c050c4-f566-4309-8e5d-2f7207c557d6")
+	)
+	(no_connect
+		(at 76.2 67.945)
+		(uuid "9883c787-b194-4d5b-8a77-f733ab3786e3")
+	)
+	(no_connect
+		(at 143.51 40.64)
+		(uuid "a1eb48e6-032b-4b4e-8ddf-698bf06e4192")
+	)
+	(no_connect
+		(at 158.75 97.79)
+		(uuid "c383eca4-9417-472c-92f4-f0633683aa18")
+	)
+	(no_connect
+		(at 153.67 40.64)
+		(uuid "ee43c6c6-3c04-45f5-8573-4eeb7df9d9db")
+	)
+	(wire
 		(pts
-			(xy 135.89 109.855) (xy 137.16 111.125)
+			(xy 146.05 69.85) (xy 146.05 74.295)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "036f8489-b213-4b11-a69e-50aff303e75f")
-	)
-	(polyline
-		(pts
-			(xy 137.16 111.125) (xy 144.78 111.125)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a020ced-f187-4906-901b-49613c812920")
+		(uuid "00925ffa-03ac-4e24-86fc-065c8d8c87fd")
 	)
 	(polyline
 		(pts
@@ -1097,6 +757,16 @@
 			(type default)
 		)
 		(uuid "0f1a66d4-3d32-4e3c-9096-f91f90c23993")
+	)
+	(wire
+		(pts
+			(xy 156.21 69.85) (xy 156.21 74.295)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11c5d5c8-f6a1-4c78-9234-6c79a94241cb")
 	)
 	(polyline
 		(pts
@@ -1110,17 +780,37 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 43.18) (xy 114.3 43.18)
+			(xy 143.51 69.85) (xy 146.05 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "19ee4a14-9d32-4d3e-98db-fa6abc12123e")
+		(uuid "1b17045e-1625-40e8-8cba-88e391f20fcf")
+	)
+	(wire
+		(pts
+			(xy 101.6 76.2) (xy 114.3 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24ccc9d3-c2a9-4f21-a044-46fb9cd6edd2")
+	)
+	(wire
+		(pts
+			(xy 101.6 93.98) (xy 114.3 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "261e9c9b-efdc-4213-87c8-e2044a6991f7")
 	)
 	(polyline
 		(pts
-			(xy 135.89 38.1) (xy 134.62 39.37)
+			(xy 143.51 38.735) (xy 142.24 40.005)
 		)
 		(stroke
 			(width 0)
@@ -1128,39 +818,9 @@
 		)
 		(uuid "324dcbd6-b6c9-4526-837f-73d0d2eea5e1")
 	)
-	(wire
-		(pts
-			(xy 151.13 69.85) (xy 148.59 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35d1fb11-c601-4ca0-9d3d-e7ad57839abd")
-	)
-	(wire
-		(pts
-			(xy 153.67 69.85) (xy 156.21 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36ba4d66-745a-4f37-b04f-1f989d7bfb73")
-	)
-	(wire
-		(pts
-			(xy 143.51 74.295) (xy 143.51 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "376c7dd5-06dd-4fc3-9c22-3f54a87f9ce6")
-	)
 	(polyline
 		(pts
-			(xy 157.48 38.1) (xy 135.89 38.1)
+			(xy 156.21 38.735) (xy 143.51 38.735)
 		)
 		(stroke
 			(width 0)
@@ -1170,13 +830,13 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 74.295) (xy 153.67 69.85)
+			(xy 153.67 69.85) (xy 153.67 74.295)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "47a565ff-0de3-4c20-ab51-912921fbec60")
+		(uuid "407116eb-f555-48e5-8566-6370e4099449")
 	)
 	(polyline
 		(pts
@@ -1190,7 +850,7 @@
 	)
 	(polyline
 		(pts
-			(xy 182.88 94.615) (xy 184.15 95.885)
+			(xy 182.245 91.44) (xy 183.515 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1200,17 +860,17 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 78.74) (xy 114.3 78.74)
+			(xy 140.97 69.85) (xy 138.43 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "58a78060-761c-4be1-802a-026f9ded9d9f")
+		(uuid "54ca999a-579b-4897-af55-d66871e71843")
 	)
 	(polyline
 		(pts
-			(xy 73.66 60.325) (xy 73.66 67.31)
+			(xy 73.66 60.325) (xy 73.66 67.945)
 		)
 		(stroke
 			(width 0)
@@ -1220,27 +880,37 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 63.5) (xy 153.67 67.31)
+			(xy 101.6 102.87) (xy 114.3 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ddfe327-5cc7-4545-a42a-77f87b24c208")
+		(uuid "619524ee-974b-4031-912d-68e85c2f0ce7")
 	)
 	(wire
 		(pts
-			(xy 101.6 81.28) (xy 114.3 81.28)
+			(xy 148.59 69.85) (xy 148.59 74.295)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5e56fc42-e8d8-468c-bf0d-7a57d38d2d4f")
+		(uuid "62a376ca-d05e-404c-aabf-591f169375a2")
+	)
+	(wire
+		(pts
+			(xy 101.6 91.44) (xy 114.3 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6831fe84-e6ec-4687-afc1-7202dc33ef2d")
 	)
 	(polyline
 		(pts
-			(xy 182.88 97.155) (xy 184.15 95.885)
+			(xy 182.245 93.98) (xy 183.515 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1250,13 +920,53 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 69.85) (xy 143.51 67.31)
+			(xy 143.51 63.5) (xy 143.51 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6d9d37df-eb69-4106-b5a8-c0bee427e11d")
+		(uuid "776d7b66-b149-413a-9e14-33f2b6621a43")
+	)
+	(wire
+		(pts
+			(xy 153.67 67.31) (xy 156.21 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e0007c1-01a4-4e29-8ad5-3594df417952")
+	)
+	(wire
+		(pts
+			(xy 101.6 105.41) (xy 114.3 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fbf9ef0-62c5-40e4-99c7-5cca75012ba4")
+	)
+	(wire
+		(pts
+			(xy 101.6 48.26) (xy 114.3 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81ff4371-65c3-4176-a9ab-d71b6aaf48e3")
+	)
+	(wire
+		(pts
+			(xy 151.13 69.85) (xy 151.13 74.295)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "841f9928-d017-4788-a020-c91f76285f45")
 	)
 	(polyline
 		(pts
@@ -1270,7 +980,7 @@
 	)
 	(polyline
 		(pts
-			(xy 165.1 95.885) (xy 166.37 97.155)
+			(xy 164.465 92.71) (xy 165.735 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1280,13 +990,73 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 69.85) (xy 146.05 67.31)
+			(xy 101.6 88.9) (xy 114.3 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "85735e5f-2b12-412a-879d-6f56c5166888")
+		(uuid "85d44506-17f7-47fe-9762-4b85c8353eb4")
+	)
+	(wire
+		(pts
+			(xy 101.6 78.74) (xy 114.3 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88201fae-681e-47b1-99f9-acce9742c82c")
+	)
+	(wire
+		(pts
+			(xy 143.51 67.31) (xy 146.05 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aea79f6-917b-4b2a-88da-afcd6524d432")
+	)
+	(wire
+		(pts
+			(xy 148.59 67.31) (xy 151.13 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8afe1f08-d3ca-476d-9b7b-b42691a739ec")
+	)
+	(wire
+		(pts
+			(xy 153.67 63.5) (xy 153.67 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "909db480-255a-4d00-9005-6ec767db6596")
+	)
+	(wire
+		(pts
+			(xy 143.51 74.295) (xy 143.51 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "918fcfaf-fa79-40c8-abce-27ec3ed2072c")
+	)
+	(wire
+		(pts
+			(xy 101.6 100.33) (xy 114.3 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9400b62d-e24b-45c7-b13c-7d2936f17e46")
 	)
 	(wire
 		(pts
@@ -1296,37 +1066,17 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "8e3dd8c6-ac99-472c-9bf7-4249d1849a3f")
+		(uuid "98a63f1d-eaf7-4565-9f53-cae768616d27")
 	)
 	(wire
 		(pts
-			(xy 148.59 74.295) (xy 148.59 69.85)
+			(xy 101.6 81.28) (xy 114.3 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "92a04a16-56b0-4b9b-8848-183dccf6334b")
-	)
-	(wire
-		(pts
-			(xy 146.05 69.85) (xy 146.05 74.295)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a157232e-940e-434d-a6e7-346266581550")
-	)
-	(wire
-		(pts
-			(xy 156.21 69.85) (xy 153.67 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6f485a1-fe9f-45f6-b4d2-c0ea7eb7ac08")
+		(uuid "a480953a-ff34-4e04-b635-2440b4904c28")
 	)
 	(polyline
 		(pts
@@ -1348,9 +1098,19 @@
 		)
 		(uuid "a8851896-be8e-4f54-9944-205440acadd5")
 	)
+	(wire
+		(pts
+			(xy 138.43 63.5) (xy 138.43 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9233d47-eaae-42bd-b769-4727a8f7b0fc")
+	)
 	(polyline
 		(pts
-			(xy 165.1 95.885) (xy 166.37 94.615)
+			(xy 164.465 92.71) (xy 165.735 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1360,7 +1120,7 @@
 	)
 	(polyline
 		(pts
-			(xy 160.655 105.41) (xy 161.925 104.14)
+			(xy 160.655 99.06) (xy 161.925 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1370,7 +1130,7 @@
 	)
 	(polyline
 		(pts
-			(xy 160.655 83.82) (xy 161.925 85.09)
+			(xy 160.655 86.36) (xy 161.925 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1380,143 +1140,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 83.82) (xy 114.3 83.82)
+			(xy 138.43 74.295) (xy 138.43 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c09638ba-770c-4618-b6f3-59906cdb2f1d")
-	)
-	(wire
-		(pts
-			(xy 140.97 63.5) (xy 140.97 74.295)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2237513-1b11-416b-a292-8b223701cd24")
-	)
-	(wire
-		(pts
-			(xy 151.13 63.5) (xy 151.13 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c471f783-feda-4197-a667-b9e7940e7ef5")
-	)
-	(wire
-		(pts
-			(xy 156.21 63.5) (xy 156.21 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7172988-f988-4044-bf39-f402707c5964")
-	)
-	(polyline
-		(pts
-			(xy 158.75 39.37) (xy 157.48 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7821da1-9e10-40dd-b5ad-cf9ca8182134")
-	)
-	(polyline
-		(pts
-			(xy 161.925 85.09) (xy 161.925 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8370119-cba6-4e5d-9b40-68fb03352ca4")
-	)
-	(wire
-		(pts
-			(xy 143.51 63.5) (xy 143.51 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cacbe360-3366-4904-9e3a-9a56d075a42e")
-	)
-	(wire
-		(pts
-			(xy 101.6 48.26) (xy 114.3 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce1fdf7c-890b-45d7-9c93-15d075549830")
-	)
-	(wire
-		(pts
-			(xy 151.13 69.85) (xy 151.13 74.295)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d09b28df-e182-49d1-ae6e-d47a0dc78001")
-	)
-	(wire
-		(pts
-			(xy 156.21 74.295) (xy 156.21 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5f5f905-5301-4501-8802-ad4d1db44e60")
-	)
-	(wire
-		(pts
-			(xy 146.05 63.5) (xy 146.05 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea46e371-a6e1-4844-8749-b651e2f2c2ed")
-	)
-	(wire
-		(pts
-			(xy 148.59 63.5) (xy 148.59 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f55b478d-e9c2-4158-b1dc-7c7722164976")
-	)
-	(polyline
-		(pts
-			(xy 165.1 95.885) (xy 184.15 95.885)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5d8810f-fd7d-4eb8-9ff9-2f63fac238f2")
-	)
-	(polyline
-		(pts
-			(xy 73.66 67.31) (xy 74.93 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f95d4875-6c0f-4658-9f40-79c88e511177")
+		(uuid "b7bcb1c4-2dda-4def-a00a-7e161ed6a97b")
 	)
 	(wire
 		(pts
@@ -1526,17 +1156,137 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "fbe9ec59-7386-4cc3-a8d9-f8353510fb22")
+		(uuid "b840fcbd-ef4b-423d-96d6-ad7e74003405")
 	)
-	(polyline
+	(wire
 		(pts
-			(xy 144.78 111.125) (xy 146.05 109.855)
+			(xy 148.59 63.5) (xy 148.59 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ffbe76e2-e68c-4c66-81c6-23abc3424b81")
+		(uuid "bcd44ab3-a8ae-474a-a907-9ff402c92306")
+	)
+	(polyline
+		(pts
+			(xy 157.48 40.005) (xy 156.21 38.735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7821da1-9e10-40dd-b5ad-cf9ca8182134")
+	)
+	(polyline
+		(pts
+			(xy 161.925 87.63) (xy 161.925 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8370119-cba6-4e5d-9b40-68fb03352ca4")
+	)
+	(wire
+		(pts
+			(xy 140.97 63.5) (xy 140.97 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccb5d789-efac-45b9-9df5-7ad7bf3bbb00")
+	)
+	(wire
+		(pts
+			(xy 153.67 69.85) (xy 156.21 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce3d51a7-6532-4287-b9eb-ad751fc75a33")
+	)
+	(wire
+		(pts
+			(xy 101.6 43.18) (xy 114.3 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d94c4b15-9b24-4a06-8b2a-cd83668e69a0")
+	)
+	(wire
+		(pts
+			(xy 156.21 63.5) (xy 156.21 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dec02cbb-a41d-44db-b128-5fc5c4108805")
+	)
+	(wire
+		(pts
+			(xy 140.97 74.295) (xy 140.97 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e872fbc9-9d87-4256-89cb-131aa12fff65")
+	)
+	(polyline
+		(pts
+			(xy 164.465 92.71) (xy 183.515 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5d8810f-fd7d-4eb8-9ff9-2f63fac238f2")
+	)
+	(wire
+		(pts
+			(xy 138.43 69.85) (xy 140.97 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8efcff5-85a2-481d-9001-85e8a3bc1594")
+	)
+	(polyline
+		(pts
+			(xy 73.66 67.945) (xy 74.93 69.215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f95d4875-6c0f-4658-9f40-79c88e511177")
+	)
+	(wire
+		(pts
+			(xy 151.13 63.5) (xy 151.13 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe732f7e-4332-4317-8c37-612648fa9c04")
+	)
+	(wire
+		(pts
+			(xy 146.05 63.5) (xy 146.05 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fffcf34f-d192-4fd7-b67e-3f71ed8c1cb5")
 	)
 	(text_box "PC"
 		(exclude_from_sim no)
@@ -1561,7 +1311,7 @@
 	)
 	(text_box "INVERTER BOARD"
 		(exclude_from_sim no)
-		(at 184.15 92.71 0)
+		(at 183.515 89.535 0)
 		(size 7.62 6.35)
 		(stroke
 			(width 0)
@@ -1582,19 +1332,7 @@
 	)
 	(text "INTERCONNECTION"
 		(exclude_from_sim no)
-		(at 140.97 113.665 0)
-		(effects
-			(font
-				(face "Consolas")
-				(size 1.016 1.016)
-				(thickness 0.127)
-			)
-		)
-		(uuid "3f7173f9-45c1-4ea9-bb94-d253e36c6729")
-	)
-	(text "INTERCONNECTION"
-		(exclude_from_sim no)
-		(at 146.685 36.83 0)
+		(at 149.86 37.465 0)
 		(effects
 			(font
 				(face "Consolas")
@@ -1606,7 +1344,7 @@
 	)
 	(text "INTERCONNECTION"
 		(exclude_from_sim no)
-		(at 72.39 63.5 90)
+		(at 72.39 64.135 90)
 		(effects
 			(font
 				(face "Consolas")
@@ -1618,7 +1356,7 @@
 	)
 	(text "ICSP\n\nDV UART (3MBIT)\nDBG UART (115.2KBIT)"
 		(exclude_from_sim no)
-		(at 174.625 97.155 0)
+		(at 173.99 93.98 0)
 		(effects
 			(font
 				(face "Consolas")
@@ -1643,7 +1381,7 @@
 	)
 	(text "INTERCONNECTION"
 		(exclude_from_sim no)
-		(at 163.83 95.885 90)
+		(at 163.195 92.71 90)
 		(effects
 			(font
 				(face "Consolas")
@@ -1741,15 +1479,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 98.425 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "HW.ACIM-DBG"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
@@ -1772,6 +1501,7 @@
 			(at 95.885 151.13 90)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
 					(bold yes)
 				)
@@ -1782,7 +1512,9 @@
 			(at 96.52 153.67 90)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.016 1.016)
+					(thickness 0.254)
 				)
 				(justify left)
 			)
@@ -1791,7 +1523,9 @@
 			(at 87.63 152.4 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.254)
 				)
 				(hide yes)
 			)
@@ -1800,7 +1534,9 @@
 			(at 96.52 152.4 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.254)
 				)
 				(hide yes)
 			)
@@ -1809,16 +1545,9 @@
 			(at 93.98 152.4 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 93.98 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.254)
 				)
 				(hide yes)
 			)
@@ -1848,6 +1577,7 @@
 			(at 95.885 144.78 90)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
 					(bold yes)
 				)
@@ -1858,7 +1588,9 @@
 			(at 96.52 147.32 90)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.016 1.016)
+					(thickness 0.254)
 				)
 				(justify left)
 			)
@@ -1867,7 +1599,9 @@
 			(at 87.63 146.05 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.254)
 				)
 				(hide yes)
 			)
@@ -1876,7 +1610,9 @@
 			(at 96.52 146.05 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.254)
 				)
 				(hide yes)
 			)
@@ -1885,16 +1621,9 @@
 			(at 93.98 146.05 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 93.98 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.254)
 				)
 				(hide yes)
 			)
@@ -1906,82 +1635,6 @@
 			(project "HW.ACIM-DBG"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
 					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SAMPI:TESTPOINT")
-		(at 93.98 158.75 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "25c45d33-807a-4dfe-86f0-ceb0e4680c68")
-		(property "Reference" "TP1"
-			(at 95.885 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3V3 ISO"
-			(at 96.52 160.02 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SAMPI:TP1MM"
-			(at 87.63 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 93.98 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 93.98 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4533f728-6481-423e-a044-3e18212ca177")
-		)
-		(instances
-			(project ""
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -2075,125 +1728,10 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 79.375 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "HW.ACIM-DBG"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
 					(reference "SH5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SAMPI:SCREWHOLDER")
-		(at 98.425 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "41099296-21f9-4da8-b1aa-0d30afefb522")
-		(property "Reference" "SH8"
-			(at 97.155 120.65 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SCREW HOLDER"
-			(at 100.965 125.7299 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SAMPI:SCREWHOLE-2.5M"
-			(at 98.425 120.65 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 98.425 120.65 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "FILLISTER PHILLIPS SCREW, M2 X ."
-			(at 98.425 120.65 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "Essentra Components"
-			(at 98.425 120.65 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(hide yes)
-			)
-		)
-		(property "MNP" "50M020040G005"
-			(at 98.425 120.65 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 98.425 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "HW.ACIM-DBG"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
-					(reference "SH8")
 					(unit 1)
 				)
 			)
@@ -2212,6 +1750,7 @@
 			(at 95.885 132.08 90)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
 					(bold yes)
 				)
@@ -2222,7 +1761,9 @@
 			(at 96.52 134.62 90)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.016 1.016)
+					(thickness 0.254)
 				)
 				(justify left)
 			)
@@ -2231,7 +1772,9 @@
 			(at 87.63 133.35 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.254)
 				)
 				(hide yes)
 			)
@@ -2240,7 +1783,9 @@
 			(at 96.52 133.35 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.254)
 				)
 				(hide yes)
 			)
@@ -2249,16 +1794,9 @@
 			(at 93.98 133.35 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 93.98 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.254)
 				)
 				(hide yes)
 			)
@@ -2439,202 +1977,10 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 85.725 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "HW.ACIM-DBG"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
 					(reference "SH6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SAMPI:+3V3_ISO")
-		(at 91.44 158.75 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5a63f48d-9002-4800-b2a8-f6e322d02954")
-		(property "Reference" "#PWR01"
-			(at 95.25 158.75 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3_ISO"
-			(at 88.265 158.75 90)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 158.75 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 158.75 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3_ISO\""
-			(at 91.44 158.75 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "06ad395f-c813-46f0-8468-d8c74603a5ec")
-		)
-		(instances
-			(project "HW.ACIM-DBG"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SAMPI:SCREWHOLDER")
-		(at 79.375 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "76059e63-5fc7-44fd-8df8-27a6299b03f9")
-		(property "Reference" "SH9"
-			(at 78.105 129.54 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SCREW HOLDER"
-			(at 81.915 134.6199 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SAMPI:SCREWHOLE-2.5M"
-			(at 79.375 129.54 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 79.375 129.54 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "FILLISTER PHILLIPS SCREW, M2 X ."
-			(at 79.375 129.54 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "Essentra Components"
-			(at 79.375 129.54 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(hide yes)
-			)
-		)
-		(property "MNP" "50M020040G005"
-			(at 79.375 129.54 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 79.375 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "HW.ACIM-DBG"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
-					(reference "SH9")
 					(unit 1)
 				)
 			)
@@ -2879,15 +2225,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 79.375 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project ""
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
@@ -2985,15 +2322,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 85.725 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "HW.ACIM-DBG"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
@@ -3016,6 +2344,7 @@
 			(at 95.885 138.43 90)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
 					(bold yes)
 				)
@@ -3026,7 +2355,9 @@
 			(at 96.52 140.97 90)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.016 1.016)
+					(thickness 0.254)
 				)
 				(justify left)
 			)
@@ -3035,7 +2366,9 @@
 			(at 87.63 139.7 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.254)
 				)
 				(hide yes)
 			)
@@ -3044,7 +2377,9 @@
 			(at 96.52 139.7 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.254)
 				)
 				(hide yes)
 			)
@@ -3053,16 +2388,9 @@
 			(at 93.98 139.7 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 93.98 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
+					(thickness 0.254)
 				)
 				(hide yes)
 			)
@@ -3074,159 +2402,6 @@
 			(project "HW.ACIM-DBG"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
 					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SAMPI:GND_ISO")
-		(at 82.55 165.1 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9b976a3f-c070-4dab-bf53-b66b2d8d7fdd")
-		(property "Reference" "#PWR02"
-			(at 88.9 165.1 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_ISO"
-			(at 85.725 165.1 90)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 165.1 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 165.1 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+GND_ISO\""
-			(at 82.55 165.1 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "915a1873-714e-43da-b765-01bc449b7782")
-		)
-		(instances
-			(project "HW.ACIM-DBG"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SAMPI:TESTPOINT")
-		(at 93.98 165.1 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "a096c776-b684-47a2-b9ad-0674ffdc0883")
-		(property "Reference" "TP2"
-			(at 95.885 163.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND ISO"
-			(at 96.52 166.37 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SAMPI:TP1MM"
-			(at 87.63 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 93.98 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 93.98 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9bc84f13-8f40-45f7-9fc9-52bebc430585")
-		)
-		(instances
-			(project "HW.ACIM-DBG"
-				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
-					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -3316,15 +2491,6 @@
 					(face "Consolas")
 					(size 1.016 1.016)
 					(thickness 0.127)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 92.075 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -3426,15 +2592,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 92.075 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "HW.ACIM-DBG"
 				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
@@ -3524,7 +2681,7 @@
 		(at 76.2 40.64)
 		(size 25.4 67.31)
 		(stroke
-			(width 0.1524)
+			(width 0)
 			(type solid)
 		)
 		(fill
@@ -3553,113 +2710,165 @@
 				(justify left top)
 			)
 		)
-		(pin "USB2_PWR_EN" output
-			(at 101.6 43.18 0)
+		(pin "XTALIN" input
+			(at 76.2 60.325 180)
 			(effects
 				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
+					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
-			(uuid "e2beebeb-7960-454c-a79d-0d5f4346fb73")
+			(uuid "c61370be-3460-4929-8bbf-260e769805e2")
 		)
-		(pin "USB2_N" bidirectional
-			(at 101.6 45.72 0)
+		(pin "XTALOUT" output
+			(at 76.2 62.865 180)
 			(effects
 				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8df2ee08-0d06-426c-8293-5a1d08fa8ffc")
+		)
+		(pin "USB3_VBUS" output
+			(at 101.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "de888f63-8c3d-4d71-b214-d011ee882402")
+			(uuid "21bbf201-32fc-4cf9-80c8-1fa6726ea84e")
 		)
 		(pin "USB2_P" bidirectional
-			(at 101.6 48.26 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify right)
-			)
-			(uuid "dc3350c8-da98-4dcd-8efa-4934e28d80ec")
-		)
-		(pin "USB1_N" bidirectional
 			(at 101.6 81.28 0)
 			(effects
 				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
+					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5cbcf546-c6e7-4418-84ae-a5d5544f4b27")
+			(uuid "9abfb92a-63ef-493b-8e26-69dbab54d662")
 		)
-		(pin "USB_P" bidirectional
-			(at 76.2 63.5 180)
+		(pin "USB2_VBUS" output
+			(at 101.6 76.2 0)
 			(effects
 				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
+					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
-			(uuid "53b315a7-ba52-460f-82d1-d2b10097f39f")
+			(uuid "632fff02-9dd7-4916-91ad-1ffb36161f12")
 		)
-		(pin "HUB_USB_VBUS" input
-			(at 76.2 66.04 180)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify left)
-			)
-			(uuid "74f38ec3-7815-44b7-aaa0-1ccfc4d0479e")
-		)
-		(pin "USB_N" bidirectional
-			(at 76.2 60.96 180)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify left)
-			)
-			(uuid "e4a0f505-f605-4cb2-a547-614a6def6d95")
-		)
-		(pin "USB1_PWR_EN" output
+		(pin "USB2_N" bidirectional
 			(at 101.6 78.74 0)
 			(effects
 				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
+					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1a4c514b-2f7b-437d-93fa-353ce682d39c")
+			(uuid "973ff500-2f85-46bc-b8aa-e4b7fec36e08")
 		)
 		(pin "USB1_P" bidirectional
-			(at 101.6 83.82 0)
+			(at 101.6 48.26 0)
 			(effects
 				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
+					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "db21e936-4a33-4a5a-a2c5-e6c99aa57b0b")
+			(uuid "738086bd-f62b-40cf-872c-2097c89cb92f")
+		)
+		(pin "USB3_P" bidirectional
+			(at 101.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "db66c697-ccfe-4d5c-82a6-e65ef6b41f0d")
+		)
+		(pin "USB4_VBUS" output
+			(at 101.6 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c34c6761-b6a2-4679-b908-c85584a7bcc5")
+		)
+		(pin "USB3_N" bidirectional
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d8e1fbb8-de4c-4772-9542-7684782ac87b")
+		)
+		(pin "USB4_N" bidirectional
+			(at 101.6 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1d0aaf5a-acab-4125-be60-e469525bc675")
+		)
+		(pin "USB4_P" bidirectional
+			(at 101.6 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cd33923b-92cf-47f6-9039-5670a5cfaa4b")
+		)
+		(pin "USB1_VBUS" output
+			(at 101.6 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bd95489a-e89c-4c06-bcfa-76a5aca8439f")
+		)
+		(pin "USB_N" bidirectional
+			(at 76.2 65.405 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "46173b74-d65f-4337-9610-966a07ab8176")
+		)
+		(pin "USB_P" bidirectional
+			(at 76.2 67.945 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bec9d769-3008-4599-a42a-5bbe8cf58c99")
+		)
+		(pin "USB1_N" bidirectional
+			(at 101.6 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "98e387e8-ac2b-430c-b96b-73772f0d51cb")
 		)
 		(instances
 			(project "HW.ACIM-DBG"
@@ -3673,7 +2882,7 @@
 		(at 114.3 74.295)
 		(size 44.45 33.655)
 		(stroke
-			(width 0.1524)
+			(width 0)
 			(type solid)
 		)
 		(fill
@@ -3703,281 +2912,225 @@
 				(justify left top)
 			)
 		)
-		(pin "PRG_VBUS" input
-			(at 114.3 78.74 180)
+		(pin "VDD_SEN" input
+			(at 158.75 90.17 0)
 			(effects
 				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify left)
-			)
-			(uuid "c6a98084-8233-4d73-87cc-4a8209c1983e")
-		)
-		(pin "PRG_USB_P" bidirectional
-			(at 114.3 83.82 180)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify left)
-			)
-			(uuid "cf30d5ed-7181-4f5d-a40a-3f36d96c23d8")
-		)
-		(pin "PRG_USB_N" bidirectional
-			(at 114.3 81.28 180)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify left)
-			)
-			(uuid "021c6e3b-1f71-4438-9fcc-83cb3bdfd66e")
-		)
-		(pin "ISO_DV_RXD" output
-			(at 158.75 86.995 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
+					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d576c2b4-5cce-4f1b-8ed2-e43227440a01")
+			(uuid "b57ecac9-b48e-4174-84bf-5ae8ebdd8f68")
 		)
-		(pin "ISO_DV_CTS" output
-			(at 158.75 89.535 0)
+		(pin "SWO" input
+			(at 158.75 97.79 0)
 			(effects
 				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
+					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5e99c5e5-cef9-4454-a82d-41db8e1a51fd")
-		)
-		(pin "ISO_PGC" output
-			(at 158.75 104.775 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify right)
-			)
-			(uuid "44b33f1e-673d-4ca6-9e94-60d6c12e1e70")
-		)
-		(pin "DV_CTS" input
-			(at 153.67 74.295 90)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify right)
-			)
-			(uuid "d53ca454-652e-40ff-b3ed-758cb31e79fc")
-		)
-		(pin "PGC" input
-			(at 144.78 107.95 270)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify left)
-			)
-			(uuid "904a2d95-d7d8-4a7b-866e-5b3f114a7627")
-		)
-		(pin "DV_RXD" input
-			(at 148.59 74.295 90)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify right)
-			)
-			(uuid "a87bfb0c-3a97-4a2e-ae66-12ea25c36fa9")
-		)
-		(pin "VDD_SEN" output
-			(at 137.16 107.95 270)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify left)
-			)
-			(uuid "56771f7f-0955-43d1-89a5-b99e1153bcef")
-		)
-		(pin "~{MCLR}" input
-			(at 139.7 107.95 270)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify left)
-			)
-			(uuid "bd5ebcb0-8284-45df-b6a3-bb2ab243df05")
-		)
-		(pin "~{ISO_MCLR}" output
-			(at 158.75 99.695 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify right)
-			)
-			(uuid "90456f87-fae7-4660-8768-e414d77dcdea")
-		)
-		(pin "ISO_DB_TXD" input
-			(at 158.75 92.075 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify right)
-			)
-			(uuid "27e0f237-e248-4240-be6b-e766f832ff37")
-		)
-		(pin "ISO_DV_TXD" input
-			(at 158.75 94.615 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify right)
-			)
-			(uuid "25fec0b9-7c1d-43ee-8276-3911fb476452")
-		)
-		(pin "ISO_DV_RTS" input
-			(at 158.75 97.155 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify right)
-			)
-			(uuid "30901b2d-f243-4165-b574-727833c77238")
-		)
-		(pin "DV_TXD" output
-			(at 151.13 74.295 90)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify right)
-			)
-			(uuid "50a508d2-2aa9-4dea-b945-68e9d6074911")
-		)
-		(pin "DB_TXD" output
-			(at 143.51 74.295 90)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify right)
-			)
-			(uuid "cbf1c27c-c63c-4c84-9032-572802395c4a")
-		)
-		(pin "DV_RTS" output
-			(at 156.21 74.295 90)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify right)
-			)
-			(uuid "71f09555-d1a6-490c-b144-de29c6277a0b")
+			(uuid "fa05a3d9-89b9-4bec-a4b7-dd2ca9f04f5d")
 		)
 		(pin "PGD" bidirectional
-			(at 142.24 107.95 270)
+			(at 158.75 92.71 0)
 			(effects
 				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify left)
-			)
-			(uuid "11c4fd55-85f6-4195-b210-fc43f8094d1e")
-		)
-		(pin "ISO_PGD" bidirectional
-			(at 158.75 102.235 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
+					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "12900139-ba1c-48bd-9d49-1b91463d9f97")
+			(uuid "9a72e549-14b9-4212-bf5f-43f8c8f35719")
 		)
-		(pin "TG_RST" input
+		(pin "PGC" output
+			(at 158.75 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f5aa7e61-c814-40e5-8751-a7a3249e535c")
+		)
+		(pin "DBG_RXD1" input
 			(at 140.97 74.295 90)
 			(effects
 				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
+					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "439d34b5-2019-47e7-8caa-22d10431c1fe")
+			(uuid "10922c7a-fc86-4e33-a6cf-ea84e017fa21")
 		)
-		(pin "DB_RXD" input
+		(pin "DBG_TXD1" output
+			(at 138.43 74.295 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "665df204-5f37-41ce-aa0a-866d533c94e3")
+		)
+		(pin "~{MCLR}" input
+			(at 158.75 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "419827b6-86a7-4844-8718-c0e30a228ab7")
+		)
+		(pin "AUX_TXD1" output
+			(at 143.51 74.295 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "702a1804-834b-4162-9521-bf67d61fb02c")
+		)
+		(pin "AUX_RXD1" input
 			(at 146.05 74.295 90)
 			(effects
 				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
+					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f3e4a416-1aca-42b8-9fdc-8dac54304d27")
+			(uuid "08e65b1a-5571-4e85-a937-50c7767d407e")
 		)
-		(pin "ISO_DB_RXD" input
-			(at 158.75 84.455 0)
+		(pin "USB1_VBUS" input
+			(at 114.3 76.2 180)
 			(effects
 				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c108702a-b00f-4090-9f0e-462ea3a21bf0")
+		)
+		(pin "USB1_DP" bidirectional
+			(at 114.3 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d282439c-979b-4748-98bb-3e5beb9e1175")
+		)
+		(pin "USB1_DM" bidirectional
+			(at 114.3 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e2d99b3b-5326-4124-bbab-22c6fd7d473d")
+		)
+		(pin "PRG_USB_N" bidirectional
+			(at 114.3 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0086a857-7f43-4c31-8f2d-66ed32dd9771")
+		)
+		(pin "PRG_USB_P" bidirectional
+			(at 114.3 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ee8c8e80-a92b-483b-822c-68e8c11fca2f")
+		)
+		(pin "PRG_VBUS" input
+			(at 114.3 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a3066dba-6402-4422-846d-d6ed3ab96d51")
+		)
+		(pin "USB2_DP" bidirectional
+			(at 114.3 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5001ee5d-a8dc-4419-b7b3-52a8444a0490")
+		)
+		(pin "DBG_RXD2" input
+			(at 151.13 74.295 90)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "80e51ba2-d0e0-4cb7-aa52-e4466f6e0ba9")
+			(uuid "3f8adf10-a970-4a18-8189-16962ff9f7f7")
+		)
+		(pin "USB2_DM" bidirectional
+			(at 114.3 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d46b604e-89be-469f-bd5e-525d26c14ee7")
+		)
+		(pin "DBG_TXD2" output
+			(at 148.59 74.295 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6c94bcf4-4a71-4e3e-acd2-1fd49bbb5590")
+		)
+		(pin "AUX_TXD2" output
+			(at 153.67 74.295 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4085e145-62f5-4a75-9be3-ee2aeb4203df")
+		)
+		(pin "AUX_RXD2" input
+			(at 156.21 74.295 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9e299f9f-8811-40d8-9010-a3d4280bc495")
+		)
+		(pin "USB2_VBUS" input
+			(at 114.3 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b8fa872b-0985-454a-a24b-c118fdf8d106")
 		)
 		(instances
 			(project "HW.ACIM-DBG"
@@ -3991,7 +3144,7 @@
 		(at 114.3 40.64)
 		(size 44.45 22.86)
 		(stroke
-			(width 0.1524)
+			(width 0)
 			(type solid)
 		)
 		(fill
@@ -4020,233 +3173,175 @@
 				(justify left top)
 			)
 		)
-		(pin "~{VCP_MCLR}" input
-			(at 135.89 40.64 90)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify right)
-			)
-			(uuid "c1acf205-43bf-4ed8-ba79-fc943f828e1f")
-		)
-		(pin "HS_RTS" output
-			(at 156.21 63.5 270)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify left)
-			)
-			(uuid "1bb40232-b09d-4943-b80d-4a4da83950ca")
-		)
-		(pin "HS_CTS" input
-			(at 153.67 63.5 270)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify left)
-			)
-			(uuid "53477307-8bbb-4259-a9a3-722f2fe9c12f")
-		)
-		(pin "~{BT_MODE}" input
-			(at 148.59 40.64 90)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify right)
-			)
-			(uuid "89c7fb26-6b67-4f83-9920-a1dcf8697abd")
-		)
-		(pin "MODE_SLED" input
-			(at 151.13 40.64 90)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify right)
-			)
-			(uuid "a6ab0e41-c109-48cb-b7f1-87d0fddf57ec")
-		)
-		(pin "HS_SLED" input
-			(at 153.67 40.64 90)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify right)
-			)
-			(uuid "65e448c8-e717-44e3-a233-e10c4a3430c2")
-		)
-		(pin "VCP_USB_N" bidirectional
-			(at 114.3 45.72 180)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify left)
-			)
-			(uuid "ba51d096-ecb9-4132-9df9-8bab0314d83b")
-		)
-		(pin "HS_TXD" output
-			(at 151.13 63.5 270)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify left)
-			)
-			(uuid "4e7579d6-1f77-4673-a847-87eaec38028b")
-		)
-		(pin "HS_RXD" input
-			(at 148.59 63.5 270)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify left)
-			)
-			(uuid "1122996f-c803-49dd-8ef3-5c0c85370bed")
-		)
-		(pin "LS_SLED" input
-			(at 156.21 40.64 90)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify right)
-			)
-			(uuid "74e8fc81-2b72-4bb9-ac09-4b261bd7fa6f")
-		)
-		(pin "VCP_USB_VBUS" input
+		(pin "VCP_VBUS" input
 			(at 114.3 43.18 180)
 			(effects
 				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "55feba2e-40cd-4da6-b27f-25caf8d0474b")
+			(uuid "f9e12d52-c24d-4145-a475-de7619c9e130")
 		)
-		(pin "SCL" output
-			(at 146.05 40.64 90)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify right)
-			)
-			(uuid "7c83f4dd-4470-4f54-9e8a-8bd4587f4e0d")
-		)
-		(pin "SDA" bidirectional
+		(pin "EECLK" input
 			(at 143.51 40.64 90)
 			(effects
 				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
+					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "fa24bf03-14b8-4300-b129-36cc8b770a88")
+			(uuid "6169e73d-3ffc-4cd4-bac9-40b4c86e9d8f")
 		)
-		(pin "LS_RXD" input
-			(at 146.05 63.5 270)
+		(pin "EECS" input
+			(at 146.05 40.64 90)
 			(effects
 				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
-				)
-				(justify left)
-			)
-			(uuid "fa642292-22cd-4f02-b7f3-2d4da7d8286b")
-		)
-		(pin "VCP_PGD" bidirectional
-			(at 138.43 40.64 90)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
+					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "96918146-890e-4dcc-b545-b0e057775f23")
+			(uuid "a4968046-fd6d-4227-8e5b-3ac4b9673c00")
 		)
-		(pin "VCP_PGC" input
-			(at 140.97 40.64 90)
+		(pin "EEDATA" bidirectional
+			(at 148.59 40.64 90)
 			(effects
 				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
+					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "24366d4a-188d-40d9-8e94-e628d4bbe2f6")
+			(uuid "820ff693-a9e6-4443-a4ff-456dd2534f7d")
 		)
-		(pin "LS_TXD" output
+		(pin "TXD2" output
 			(at 143.51 63.5 270)
 			(effects
 				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e24c8fb2-ac8c-4093-a7f2-d29c4d1b17c1")
+			(uuid "68202bb0-f520-45aa-8495-e1556dadeecd")
 		)
-		(pin "VCP_USB_P" bidirectional
-			(at 114.3 48.26 180)
+		(pin "RXD2" input
+			(at 146.05 63.5 270)
 			(effects
 				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8f6e9f02-3d1c-4360-b8cc-b3284b4f7372")
+			(uuid "5c0ad12c-04e1-44ef-8757-292bbe97dbc9")
 		)
-		(pin "TG_RST" output
+		(pin "RXD1" input
 			(at 140.97 63.5 270)
 			(effects
 				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-					(thickness 0.127)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ab76a25f-bc17-4faa-aae2-51913e3fa927")
+			(uuid "a079d7c1-dbc8-4bd0-9716-204c26a72386")
+		)
+		(pin "OSCO" output
+			(at 156.21 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4b3d484d-772b-4b7c-b8e3-bd42aeae9a6d")
+		)
+		(pin "OSCI" input
+			(at 153.67 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b174acd0-a4c3-4802-8007-c976412bf986")
+		)
+		(pin "TXD1" output
+			(at 138.43 63.5 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cfcec3ef-43a4-4ba7-8707-eb8ded161d68")
+		)
+		(pin "~{PWREN}" input
+			(at 151.13 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6bb383df-ff4c-49a8-b167-089a1d3bd809")
+		)
+		(pin "VCP_DM" bidirectional
+			(at 114.3 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a1424b29-20e4-4f5f-ac2d-f1a8de58ec49")
+		)
+		(pin "VCP_DP" bidirectional
+			(at 114.3 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6532e05e-2bbc-4ebd-b3d1-d3aadcb315ec")
+		)
+		(pin "RXD4" input
+			(at 156.21 63.5 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "83835087-b9f4-4be8-b46f-e3861eef95a6")
+		)
+		(pin "TXD4" output
+			(at 153.67 63.5 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9a96e4df-9bb3-4ff7-811c-658bb8b65316")
+		)
+		(pin "TXD3" output
+			(at 148.59 63.5 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "23b13238-1300-4c19-bb61-551448c68b7a")
+		)
+		(pin "RXD3" input
+			(at 151.13 63.5 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "99420a05-0f2e-481b-9201-f87840630178")
 		)
 		(instances
 			(project "HW.ACIM-DBG"
