@@ -5096,7 +5096,6 @@
 	(hierarchical_label "EECS"
 		(shape input)
 		(at 120.015 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -5110,7 +5109,6 @@
 	(hierarchical_label "OSCO"
 		(shape output)
 		(at 58.42 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -5124,7 +5122,6 @@
 	(hierarchical_label "~{PWREN}"
 		(shape output)
 		(at 95.885 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -5138,7 +5135,6 @@
 	(hierarchical_label "RXD1"
 		(shape input)
 		(at 132.715 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -5152,7 +5148,6 @@
 	(hierarchical_label "EECS"
 		(shape output)
 		(at 95.885 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -5166,7 +5161,6 @@
 	(hierarchical_label "OSCI"
 		(shape output)
 		(at 43.18 40.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -5180,7 +5174,6 @@
 	(hierarchical_label "VCP_DM"
 		(shape bidirectional)
 		(at 132.715 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -5194,7 +5187,6 @@
 	(hierarchical_label "EEDATA"
 		(shape bidirectional)
 		(at 95.885 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -5208,7 +5200,6 @@
 	(hierarchical_label "TXD3"
 		(shape output)
 		(at 95.885 90.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -5222,7 +5213,6 @@
 	(hierarchical_label "OSCO"
 		(shape output)
 		(at 132.715 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -5236,7 +5226,6 @@
 	(hierarchical_label "EECLK"
 		(shape output)
 		(at 95.885 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -5250,7 +5239,6 @@
 	(hierarchical_label "OSCI"
 		(shape input)
 		(at 132.715 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -5264,7 +5252,6 @@
 	(hierarchical_label "VCP_DP"
 		(shape bidirectional)
 		(at 132.715 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -5278,7 +5265,6 @@
 	(hierarchical_label "EEDATA"
 		(shape bidirectional)
 		(at 76.835 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -5292,7 +5278,6 @@
 	(hierarchical_label "TXD2"
 		(shape output)
 		(at 132.715 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -5306,7 +5291,6 @@
 	(hierarchical_label "RXD4"
 		(shape input)
 		(at 95.885 115.57 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -5320,7 +5304,6 @@
 	(hierarchical_label "~{PWREN}"
 		(shape input)
 		(at 153.67 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -5334,7 +5317,6 @@
 	(hierarchical_label "EECLK"
 		(shape input)
 		(at 153.67 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -5348,7 +5330,6 @@
 	(hierarchical_label "RXD2"
 		(shape input)
 		(at 132.715 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -5362,7 +5343,6 @@
 	(hierarchical_label "VCP_VBUS"
 		(shape input)
 		(at 153.035 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -5376,7 +5356,6 @@
 	(hierarchical_label "TXD4"
 		(shape output)
 		(at 95.885 113.03 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -5390,7 +5369,6 @@
 	(hierarchical_label "EECS"
 		(shape input)
 		(at 153.67 45.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -5404,7 +5382,6 @@
 	(hierarchical_label "EEDATA"
 		(shape bidirectional)
 		(at 153.67 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -5418,7 +5395,6 @@
 	(hierarchical_label "TXD1"
 		(shape output)
 		(at 132.715 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -5432,7 +5408,6 @@
 	(hierarchical_label "EECLK"
 		(shape input)
 		(at 76.835 45.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
@@ -5446,7 +5421,6 @@
 	(hierarchical_label "RXD3"
 		(shape input)
 		(at 95.885 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Consolas")
