@@ -3141,6 +3141,44 @@
 		)
 	)
 	(sheet
+		(at 171.45 40.64)
+		(size 19.05 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 241 255 177 1.0000)
+		)
+		(uuid "714c0cbc-82fd-4119-b380-9ba86ae3cfeb")
+		(property "Sheetname" "PIM"
+			(at 171.45 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PIM.kicad_sch"
+			(at 171.45 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HW.ACIM-DBG"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 114.3 40.64)
 		(size 44.45 22.86)
 		(stroke

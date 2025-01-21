@@ -1,4 +1,4 @@
-2152770026973605
+2170181650423709
 Liem
 6-WLCSP
 
@@ -1155,6 +1155,13 @@ PCS.06.A
 4
 4
 Liem
+PCTEST-4952
+
+
+0
+1
+1
+Liem
 PJ-002AH-SMT
 
 
@@ -1449,6 +1456,13 @@ SMLV56
 6
 6
 Liem
+SMPS-TRANS-786
+
+
+0
+6
+6
+Liem
 SO8W_5.3
 
 
@@ -1506,6 +1520,13 @@ SOD-323
 2
 Liem
 SOD-323_12
+
+
+0
+2
+2
+Liem
+SOD-523_SC-79_EMD2
 
 
 0
@@ -5012,6 +5033,13 @@ SLA-12VDC-SL-C
 6
 6
 SAMPI
+SM13117EL
+
+
+0
+10
+10
+SAMPI
 SMAJACKFEMALE-5
 
 
@@ -5208,6 +5236,13 @@ SOT-23-6_MCHP
 6
 6
 SAMPI
+SOT-23-8
+
+
+0
+8
+8
+SAMPI
 SOT-89
 
 
@@ -5221,6 +5256,13 @@ SOT-223-3
 0
 4
 4
+SAMPI
+SOT-563_SOT-666
+
+
+0
+6
+6
 SAMPI
 SOT-583
 
@@ -5621,6 +5663,13 @@ VDFN-10-3x3-EP
 11
 11
 SAMPI
+VQFN-21HR
+
+
+0
+21
+21
+SAMPI
 VQFN-56_FTDI
 
 
@@ -5648,6 +5697,13 @@ VQFN64-9x9-L0.5
 0
 65
 65
+SAMPI
+WFDFN-12-EP
+
+
+0
+13
+13
 SAMPI
 WQFN16-3x3_TI
 
@@ -6285,6 +6341,13 @@ HM-10_Base
 0
 102
 34
+Triet_KiCAD_Fprint
+HTU31
+
+
+0
+7
+7
 Triet_KiCAD_Fprint
 Header-2P
 
@@ -7039,14 +7102,14 @@ ResShunt1206
 
 
 0
-4
+8
 4
 Triet_KiCAD_Fprint
 ResShunt2512
 
 
 0
-4
+8
 4
 Triet_KiCAD_Fprint
 SB
@@ -7069,6 +7132,13 @@ SH8MC5
 0
 8
 8
+Triet_KiCAD_Fprint
+SHT45
+
+
+0
+4
+4
 Triet_KiCAD_Fprint
 SL871
 
