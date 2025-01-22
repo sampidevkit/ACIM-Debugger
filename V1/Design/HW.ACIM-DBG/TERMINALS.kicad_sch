@@ -4683,7 +4683,7 @@
 		)
 		(uuid "17b078ee-4749-4770-8ace-655a7495ed9a")
 	)
-	(hierarchical_label "USB2_VBUS"
+	(hierarchical_label "USB_MC_VBUS"
 		(shape input)
 		(at 73.025 43.18 180)
 		(effects
@@ -4696,7 +4696,7 @@
 		)
 		(uuid "31911a43-8be6-45a5-8c7c-b8f4cb0c4754")
 	)
-	(hierarchical_label "USB2_DP"
+	(hierarchical_label "USB_MC_P"
 		(shape bidirectional)
 		(at 93.345 40.64 0)
 		(effects
@@ -4748,7 +4748,7 @@
 		)
 		(uuid "530327a3-ab3f-42d8-8f41-7e5cab57970d")
 	)
-	(hierarchical_label "USB1_VBUS"
+	(hierarchical_label "USB_RP_VBUS"
 		(shape input)
 		(at 68.58 69.85 180)
 		(effects
@@ -4800,7 +4800,7 @@
 		)
 		(uuid "678ab777-09aa-4305-b11c-c573dbf38b3d")
 	)
-	(hierarchical_label "USB2_DM"
+	(hierarchical_label "USB_MC_N"
 		(shape bidirectional)
 		(at 93.345 43.18 0)
 		(effects
@@ -4878,7 +4878,7 @@
 		)
 		(uuid "82e44673-a009-462c-a585-74a39db292d5")
 	)
-	(hierarchical_label "USB1_DP"
+	(hierarchical_label "USB_RP_P"
 		(shape bidirectional)
 		(at 69.215 90.805 180)
 		(effects
@@ -4956,7 +4956,7 @@
 		)
 		(uuid "b217c567-d60a-47bc-9bdc-dadb588bded1")
 	)
-	(hierarchical_label "USB1_DM"
+	(hierarchical_label "USB_RP_N"
 		(shape bidirectional)
 		(at 69.215 93.345 180)
 		(effects
@@ -5034,7 +5034,7 @@
 		)
 		(uuid "cf24a854-b2fa-4bb0-b43e-39453545ada3")
 	)
-	(hierarchical_label "USB1_DM"
+	(hierarchical_label "USB_RP_N"
 		(shape bidirectional)
 		(at 68.58 67.31 180)
 		(effects
@@ -5099,7 +5099,7 @@
 		)
 		(uuid "dd9277f5-641f-483e-a46d-f217360d945a")
 	)
-	(hierarchical_label "USB1_DP"
+	(hierarchical_label "USB_RP_P"
 		(shape bidirectional)
 		(at 68.58 64.77 180)
 		(effects
@@ -5112,7 +5112,7 @@
 		)
 		(uuid "e5c36799-0d32-4439-b13f-326aacbc98b2")
 	)
-	(hierarchical_label "USB1_VBUS"
+	(hierarchical_label "USB_RP_VBUS"
 		(shape input)
 		(at 69.215 95.885 180)
 		(effects

@@ -553,6 +553,38 @@
       {
         "netclass": "USB",
         "pattern": "USB_N"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "USB1_P"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "USB1_N"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "USB2_P"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "USB2_P"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "USB3_N"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "USB3_P"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "USB4_N"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "USB4_N"
       }
     ]
   },
