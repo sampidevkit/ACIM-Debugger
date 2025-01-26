@@ -2678,6 +2678,44 @@
 		)
 	)
 	(sheet
+		(at 203.2 40.64)
+		(size 26.67 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 241 255 177 1.0000)
+		)
+		(uuid "254d3ea5-daf3-4b9d-8952-4e581d79b21e")
+		(property "Sheetname" "PIM-SAME70"
+			(at 203.2 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PIM-SAME70.kicad_sch"
+			(at 203.2 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HW.ACIM-DBG"
+				(path "/20f80521-75f2-4ccc-bb34-c9566e70ef5c"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 76.2 40.64)
 		(size 25.4 67.31)
 		(stroke
@@ -3142,7 +3180,7 @@
 	)
 	(sheet
 		(at 171.45 40.64)
-		(size 19.05 22.86)
+		(size 26.67 22.86)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3152,7 +3190,7 @@
 			(color 241 255 177 1.0000)
 		)
 		(uuid "714c0cbc-82fd-4119-b380-9ba86ae3cfeb")
-		(property "Sheetname" "PIM"
+		(property "Sheetname" "PIM-PIC32MK"
 			(at 171.45 39.9284 0)
 			(effects
 				(font
@@ -3161,7 +3199,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PIM.kicad_sch"
+		(property "Sheetfile" "PIM-PIC32MK.kicad_sch"
 			(at 171.45 64.0846 0)
 			(effects
 				(font

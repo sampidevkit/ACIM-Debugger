@@ -5724,7 +5724,7 @@
 	)
 	(hierarchical_label "MC_PWM_VL"
 		(shape output)
-		(at 101.6 170.18 0)
+		(at 101.6 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5733,7 +5733,7 @@
 		)
 		(uuid "68a21ef0-8885-4df2-9fb5-9ad3c37cb3a2")
 		(property "Netclass" "PWM5L"
-			(at 115.57 170.18 0)
+			(at 115.57 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5947,7 +5947,7 @@
 	)
 	(hierarchical_label "MC_PWM_WL"
 		(shape output)
-		(at 101.6 172.72 0)
+		(at 101.6 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5956,7 +5956,7 @@
 		)
 		(uuid "8763563a-24ee-4c38-bb77-14667868cc0d")
 		(property "Netclass" "PWM6L"
-			(at 120.015 172.72 0)
+			(at 120.015 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
