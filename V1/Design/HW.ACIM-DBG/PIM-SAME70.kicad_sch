@@ -4219,8 +4219,12 @@
 		(uuid "24613e2c-bcae-4630-8ec5-a1eed5e06b37")
 	)
 	(no_connect
-		(at 99.06 48.26)
-		(uuid "3d921af9-82f9-4b7d-9fa7-2449df75958d")
+		(at 158.75 35.56)
+		(uuid "32ca5a10-a0f9-4f28-8862-4476fbfeab2d")
+	)
+	(no_connect
+		(at 158.75 33.02)
+		(uuid "3c00bcd2-88aa-4cfc-a5f1-8fb08495ea20")
 	)
 	(no_connect
 		(at 101.6 177.8)
@@ -4235,12 +4239,12 @@
 		(uuid "44a42d24-807d-4766-a7cd-b6d16df27940")
 	)
 	(no_connect
-		(at 99.06 55.88)
-		(uuid "46522723-359c-4db9-8076-9799edf6afa2")
-	)
-	(no_connect
 		(at 31.115 175.26)
 		(uuid "47cfd050-cc7f-405b-aeaa-4fcc3e65c406")
+	)
+	(no_connect
+		(at 158.75 78.74)
+		(uuid "48ec7835-0386-4524-93ef-01dd6c697956")
 	)
 	(no_connect
 		(at 92.71 162.56)
@@ -4261,10 +4265,6 @@
 	(no_connect
 		(at 92.71 165.1)
 		(uuid "6ca3af50-af5d-4d36-adb8-fb283a5ce014")
-	)
-	(no_connect
-		(at 99.06 43.18)
-		(uuid "740a0645-94c1-4449-86e4-c44290526c2d")
 	)
 	(no_connect
 		(at 101.6 165.1)
@@ -4319,12 +4319,12 @@
 		(uuid "b4b5825b-f5f6-45a3-8161-f54f740be34b")
 	)
 	(no_connect
-		(at 40.005 167.64)
-		(uuid "bd951089-eb8b-4aab-a8c8-6ef5239759a8")
+		(at 99.06 48.26)
+		(uuid "b8b0f9ab-8e71-43a4-9742-5b18ad565c98")
 	)
 	(no_connect
-		(at 99.06 40.64)
-		(uuid "c0f4bb76-0b76-4c4c-b051-142714b46736")
+		(at 40.005 167.64)
+		(uuid "bd951089-eb8b-4aab-a8c8-6ef5239759a8")
 	)
 	(no_connect
 		(at 99.06 27.94)
@@ -4345,6 +4345,10 @@
 	(no_connect
 		(at 92.71 177.8)
 		(uuid "e1d73ec6-fcbb-4d62-9229-2a3dd1983182")
+	)
+	(no_connect
+		(at 158.75 76.2)
+		(uuid "ec3279d0-ebec-4e47-ab26-8b7838d8f44b")
 	)
 	(no_connect
 		(at 158.75 50.8)
@@ -5141,38 +5145,6 @@
 			)
 		)
 	)
-	(hierarchical_label "USB_VBUS"
-		(shape input)
-		(at 158.75 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "125f5832-763d-4ec5-9de5-d5e58b11b0be")
-		(property "Netclass" ""
-			(at 172.72 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(hierarchical_label "PWR_RELAY"
-		(shape output)
-		(at 99.06 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "14a64647-e377-4af0-9e11-93d71ccb822c")
-	)
 	(hierarchical_label "MC_PWM_VL"
 		(shape output)
 		(at 101.6 172.72 0)
@@ -5214,17 +5186,6 @@
 				(justify left)
 			)
 		)
-	)
-	(hierarchical_label "SLED"
-		(shape output)
-		(at 158.75 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1a947dca-fa0d-4f9b-8780-dda0986dba97")
 	)
 	(hierarchical_label "IO1"
 		(shape bidirectional)
@@ -5483,6 +5444,28 @@
 			)
 		)
 	)
+	(hierarchical_label "IO1"
+		(shape bidirectional)
+		(at 99.06 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5b85d7a6-b906-4240-9327-ac6f9452983c")
+	)
+	(hierarchical_label "IO2"
+		(shape bidirectional)
+		(at 99.06 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5d68e51d-1728-4927-a9b2-18bec73d193b")
+	)
 	(hierarchical_label "VDC_DIV"
 		(shape input)
 		(at 158.75 71.12 0)
@@ -5504,6 +5487,17 @@
 				(justify left)
 			)
 		)
+	)
+	(hierarchical_label "SLED"
+		(shape output)
+		(at 99.06 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "622ae1d3-229c-4748-be29-bbaa52d8f33b")
 	)
 	(hierarchical_label "ENC_B"
 		(shape output)
@@ -5761,25 +5755,14 @@
 			)
 		)
 	)
-	(hierarchical_label "IO2"
-		(shape bidirectional)
-		(at 158.75 78.74 0)
+	(hierarchical_label "DEV_RELAY"
+		(shape output)
+		(at 158.75 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
-		)
-		(uuid "97e5cba8-e76d-489f-b8cc-e4a759d2f9a7")
-	)
-	(hierarchical_label "DEV_RELAY"
-		(shape output)
-		(at 99.06 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
 		)
 		(uuid "9bb87b0d-2c28-459d-870a-a0f7e411fb72")
 	)
@@ -5826,6 +5809,27 @@
 		)
 		(uuid "a97c345a-9c5b-4f06-b17e-5416f079f07a")
 	)
+	(hierarchical_label "USB_VBUS"
+		(shape input)
+		(at 99.06 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ae08b879-3eb8-44e0-a438-0cde28b44aa3")
+		(property "Netclass" ""
+			(at 85.09 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
 	(hierarchical_label "~{INV_FLT}"
 		(shape input)
 		(at 99.06 45.72 180)
@@ -5867,6 +5871,17 @@
 				(justify left)
 			)
 		)
+	)
+	(hierarchical_label "PWR_RELAY"
+		(shape output)
+		(at 99.06 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b9736941-f1d7-4441-96aa-1cf2db24d625")
 	)
 	(hierarchical_label "DV_TXD"
 		(shape output)
@@ -6060,17 +6075,6 @@
 				(justify right)
 			)
 		)
-	)
-	(hierarchical_label "IO1"
-		(shape bidirectional)
-		(at 158.75 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f98c5369-486e-4a1b-ad7b-6ac7965f1fc8")
 	)
 	(hierarchical_label "MC_PWM_UL"
 		(shape output)
