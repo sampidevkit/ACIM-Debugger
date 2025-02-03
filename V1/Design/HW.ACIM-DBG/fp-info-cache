@@ -1,4 +1,4 @@
-2187021526702834
+2180612955400966
 Liem
 6-WLCSP
 
@@ -5061,6 +5061,13 @@ SLA-12VDC-SL-C
 6
 6
 SAMPI
+SM13117EL
+
+
+0
+10
+10
+SAMPI
 SMAJACKFEMALE-5
 
 
@@ -5740,6 +5747,13 @@ WQFN16-3x3_TI
 17
 17
 SAMPI
+WSON-8-EP
+
+
+0
+9
+9
+SAMPI
 XBEE-PRO
 
 
@@ -6245,6 +6259,13 @@ DRS0745_IND_3L
 2
 Triet_KiCAD_Fprint
 D_SMA
+
+
+0
+2
+2
+Triet_KiCAD_Fprint
+D_SMB
 
 
 0
@@ -7168,20 +7189,6 @@ SL871
 18
 18
 Triet_KiCAD_Fprint
-SMB
-
-
-0
-2
-2
-Triet_KiCAD_Fprint
-SMB_TVS
-
-
-0
-2
-2
-Triet_KiCAD_Fprint
 SMD_IND_ERR
 
 
@@ -7421,13 +7428,6 @@ SOT763-1
 17
 Triet_KiCAD_Fprint
 SPC-2P
-
-
-0
-2
-2
-Triet_KiCAD_Fprint
-SRP1770TA
 
 
 0
@@ -7797,13 +7797,6 @@ WBZ451
 0
 40
 40
-Triet_KiCAD_Fprint
-XH2.54_2P_Horizontal
-
-
-0
-2
-2
 Triet_KiCAD_Fprint
 XH2.54_8Cell
 
