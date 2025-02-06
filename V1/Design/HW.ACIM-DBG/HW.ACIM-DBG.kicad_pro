@@ -646,10 +646,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../Production/HW.ACIM-DBG_REV0.1/Gerber/",
+      "plot": "../../Production/Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../Production/HW.ACIM-DBG_REV0.1/3D/HW.ACIM-DBG.step",
+      "step": "../../Production/3D/HW.ACIM-DBG.step",
       "svg": "",
       "vrml": ""
     },

@@ -1,0 +1,29 @@
+Drill report for HW.ACIM-DBG.kicad_pcb
+Created on 2025-02-06T15:55:55+0700
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    in1
+    L3 :  In2.Cu                    in2
+    L4 :  B.Cu                      back
+
+
+Drill file 'HW.ACIM-DBG-PTH-drl.gbr' contains
+    plated through holes:
+    =============================================================
+    T1  0.300mm  0.0118"  (416 holes)
+    T2  0.500mm  0.0197"  (8 holes)  (with 8 slots)
+    T3  0.900mm  0.0354"  (14 holes)
+    T4  1.000mm  0.0394"  (20 holes)
+
+    Total plated holes count 458
+
+
+Drill file 'HW.ACIM-DBG-NPTH-drl.gbr' contains
+    unplated through holes:
+    =============================================================
+    T1  0.650mm  0.0256"  (2 holes)
+    T2  2.500mm  0.0984"  (7 holes)
+
+    Total unplated holes count 9
