@@ -69,16 +69,19 @@
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
+        "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
+        "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "hole_to_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -89,9 +92,11 @@
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
+        "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
+        "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
@@ -106,7 +111,9 @@
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
+        "track_angle": "error",
         "track_dangling": "warning",
+        "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",
@@ -119,6 +126,7 @@
         "min_clearance": 0.16,
         "min_connection": 0.16,
         "min_copper_edge_clearance": 0.25,
+        "min_groove_width": 0.0,
         "min_hole_clearance": 0.16,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.45,
@@ -138,16 +146,17 @@
       },
       "teardrop_options": [
         {
-          "td_onpadsmd": true,
+          "td_onpthpad": true,
           "td_onroundshapesonly": false,
+          "td_onsmdpad": true,
           "td_ontrackend": false,
-          "td_onviapad": true
+          "td_onvia": true
         }
       ],
       "teardrop_parameters": [
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 5,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 1.5,
@@ -158,7 +167,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 5,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 1.5,
@@ -169,7 +178,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 5,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 1.5,
@@ -241,6 +250,7 @@
       "mfg": "",
       "mpn": ""
     },
+    "layer_pairs": [],
     "layer_presets": [],
     "viewports": []
   },
@@ -435,10 +445,15 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "footprint_filter": "ignore",
+      "footprint_link_issues": "warning",
+      "four_way_junction": "ignore",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
+      "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
+      "lib_symbol_mismatch": "warning",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -451,9 +466,14 @@
       "pin_not_driven": "error",
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
+      "same_local_global_label": "warning",
+      "similar_label_and_power": "warning",
       "similar_labels": "warning",
+      "similar_power": "warning",
       "simulation_model_issue": "ignore",
+      "single_global_label": "ignore",
       "unannotated": "error",
+      "unconnected_wire_endpoint": "warning",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -465,7 +485,7 @@
   },
   "meta": {
     "filename": "HW.ACIM-DBG.kicad_pro",
-    "version": 1
+    "version": 3
   },
   "net_settings": {
     "classes": [
@@ -480,6 +500,7 @@
         "microvia_drill": 0.3,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.16,
         "via_diameter": 0.45,
@@ -497,6 +518,7 @@
         "microvia_drill": 0.3,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.16,
         "via_diameter": 0.45,
@@ -505,62 +527,166 @@
       }
     ],
     "meta": {
-      "version": 3
+      "version": 4
     },
     "net_colors": null,
     "netclass_assignments": {
-      "/PIM-PIC32MK/DB_RXD": "UART1",
-      "/PIM-PIC32MK/DB_TXD": "UART1",
-      "/PIM-PIC32MK/DV_CTS": "UART2",
-      "/PIM-PIC32MK/DV_RTS": "UART2",
-      "/PIM-PIC32MK/DV_RXD": "UART2",
-      "/PIM-PIC32MK/DV_TXD": "UART2",
-      "/PIM-PIC32MK/ENC_A": "QEI1",
-      "/PIM-PIC32MK/ENC_B": "QEI1",
-      "/PIM-PIC32MK/ENC_HOME": "QEI1",
-      "/PIM-PIC32MK/ENC_IDX": "QEI1",
-      "/PIM-PIC32MK/IDC_SEN": "ADCH2",
-      "/PIM-PIC32MK/MC_IU_SEN": "ADCH0",
-      "/PIM-PIC32MK/MC_IV_SEN": "ADCH3",
-      "/PIM-PIC32MK/MC_PWM_UH": "PWM12H",
-      "/PIM-PIC32MK/MC_PWM_UL": "PWM12L",
-      "/PIM-PIC32MK/MC_PWM_VH": "PWM5H",
-      "/PIM-PIC32MK/MC_PWM_VL": "PWM5L",
-      "/PIM-PIC32MK/MC_PWM_WH": "PWM6H",
-      "/PIM-PIC32MK/MC_PWM_WL": "PWM6L",
-      "/PIM-PIC32MK/MC_TEMP_SEN": "ADCH7",
-      "/PIM-PIC32MK/MC_VR_DIV": "ADCH7",
-      "/PIM-PIC32MK/MC_VU_DIV": "ADCH0",
-      "/PIM-PIC32MK/MC_VV_DIV": "ADCH3",
-      "/PIM-PIC32MK/PFC_IA_SEN": "ADCH1",
-      "/PIM-PIC32MK/PFC_IB_SEN": "ADCH4",
-      "/PIM-PIC32MK/PFC_PWM_A": "OC3",
-      "/PIM-PIC32MK/PFC_PWM_B": "OC1",
-      "/PIM-PIC32MK/SCK": "SPI6",
-      "/PIM-PIC32MK/SCL": "I2C4",
-      "/PIM-PIC32MK/SDA": "I2C4",
-      "/PIM-PIC32MK/SDI": "SPI6",
-      "/PIM-PIC32MK/SDO": "SPI6",
-      "/PIM-PIC32MK/VAC_DIV": "ADCH5",
-      "/PIM-PIC32MK/VDC_DIV": "ADCH5",
-      "/PIM-PIC32MK/~{INV_FLT}": "FLT1",
-      "/PIM-PIC32MK/~{PFC_FLT}": "OCFB",
-      "/PIM-SAME70/DB_RXD": "UART0",
-      "/PIM-SAME70/DB_TXD": "UART0",
-      "/PIM-SAME70/DV_RXD": "UART1",
-      "/PIM-SAME70/DV_TXD": "UART1",
-      "/PIM-SAME70/ENC_A": "TC3",
-      "/PIM-SAME70/ENC_B": "TC3",
-      "/PIM-SAME70/IDC_SEN": "ADC0.2",
-      "/PIM-SAME70/MC_IU_SEN": "ADC0.10",
-      "/PIM-SAME70/MC_IV_SEN": "ADC0.1",
-      "/PIM-SAME70/MC_PWM_UH": "PWM0",
-      "/PIM-SAME70/MC_PWM_UL": "PWM0",
-      "/PIM-SAME70/MC_PWM_VH": "PWM0",
-      "/PIM-SAME70/MC_PWM_VL": "PWM0",
-      "/PIM-SAME70/MC_PWM_WH": "PWM0",
-      "/PIM-SAME70/MC_PWM_WL": "PWM0",
-      "/PIM-SAME70/VDC_DIV": "ADC0.5",
+      "/PIM-PIC32MK/DB_RXD": [
+        "UART1"
+      ],
+      "/PIM-PIC32MK/DB_TXD": [
+        "UART1"
+      ],
+      "/PIM-PIC32MK/DV_CTS": [
+        "UART2"
+      ],
+      "/PIM-PIC32MK/DV_RTS": [
+        "UART2"
+      ],
+      "/PIM-PIC32MK/DV_RXD": [
+        "UART2"
+      ],
+      "/PIM-PIC32MK/DV_TXD": [
+        "UART2"
+      ],
+      "/PIM-PIC32MK/ENC_A": [
+        "QEI1"
+      ],
+      "/PIM-PIC32MK/ENC_B": [
+        "QEI1"
+      ],
+      "/PIM-PIC32MK/ENC_HOME": [
+        "QEI1"
+      ],
+      "/PIM-PIC32MK/ENC_IDX": [
+        "QEI1"
+      ],
+      "/PIM-PIC32MK/IDC_SEN": [
+        "ADCH2"
+      ],
+      "/PIM-PIC32MK/MC_IU_SEN": [
+        "ADCH0"
+      ],
+      "/PIM-PIC32MK/MC_IV_SEN": [
+        "ADCH3"
+      ],
+      "/PIM-PIC32MK/MC_PWM_UH": [
+        "PWM12H"
+      ],
+      "/PIM-PIC32MK/MC_PWM_UL": [
+        "PWM12L"
+      ],
+      "/PIM-PIC32MK/MC_PWM_VH": [
+        "PWM5H"
+      ],
+      "/PIM-PIC32MK/MC_PWM_VL": [
+        "PWM5L"
+      ],
+      "/PIM-PIC32MK/MC_PWM_WH": [
+        "PWM6H"
+      ],
+      "/PIM-PIC32MK/MC_PWM_WL": [
+        "PWM6L"
+      ],
+      "/PIM-PIC32MK/MC_TEMP_SEN": [
+        "ADCH7"
+      ],
+      "/PIM-PIC32MK/MC_VR_DIV": [
+        "ADCH7"
+      ],
+      "/PIM-PIC32MK/MC_VU_DIV": [
+        "ADCH0"
+      ],
+      "/PIM-PIC32MK/MC_VV_DIV": [
+        "ADCH3"
+      ],
+      "/PIM-PIC32MK/PFC_IA_SEN": [
+        "ADCH1"
+      ],
+      "/PIM-PIC32MK/PFC_IB_SEN": [
+        "ADCH4"
+      ],
+      "/PIM-PIC32MK/PFC_PWM_A": [
+        "OC3"
+      ],
+      "/PIM-PIC32MK/PFC_PWM_B": [
+        "OC1"
+      ],
+      "/PIM-PIC32MK/SCK": [
+        "SPI6"
+      ],
+      "/PIM-PIC32MK/SCL": [
+        "I2C4"
+      ],
+      "/PIM-PIC32MK/SDA": [
+        "I2C4"
+      ],
+      "/PIM-PIC32MK/SDI": [
+        "SPI6"
+      ],
+      "/PIM-PIC32MK/SDO": [
+        "SPI6"
+      ],
+      "/PIM-PIC32MK/VAC_DIV": [
+        "ADCH5"
+      ],
+      "/PIM-PIC32MK/VDC_DIV": [
+        "ADCH5"
+      ],
+      "/PIM-PIC32MK/~{INV_FLT}": [
+        "FLT1"
+      ],
+      "/PIM-PIC32MK/~{PFC_FLT}": [
+        "OCFB"
+      ],
+      "/PIM-SAME70/DB_RXD": [
+        "UART0"
+      ],
+      "/PIM-SAME70/DB_TXD": [
+        "UART0"
+      ],
+      "/PIM-SAME70/DV_RXD": [
+        "UART1"
+      ],
+      "/PIM-SAME70/DV_TXD": [
+        "UART1"
+      ],
+      "/PIM-SAME70/ENC_A": [
+        "TC3"
+      ],
+      "/PIM-SAME70/ENC_B": [
+        "TC3"
+      ],
+      "/PIM-SAME70/IDC_SEN": [
+        "ADC0.2"
+      ],
+      "/PIM-SAME70/MC_IU_SEN": [
+        "ADC0.10"
+      ],
+      "/PIM-SAME70/MC_IV_SEN": [
+        "ADC0.1"
+      ],
+      "/PIM-SAME70/MC_PWM_UH": [
+        "PWM0"
+      ],
+      "/PIM-SAME70/MC_PWM_UL": [
+        "PWM0"
+      ],
+      "/PIM-SAME70/MC_PWM_VH": [
+        "PWM0"
+      ],
+      "/PIM-SAME70/MC_PWM_VL": [
+        "PWM0"
+      ],
+      "/PIM-SAME70/MC_PWM_WH": [
+        "PWM0"
+      ],
+      "/PIM-SAME70/MC_PWM_WL": [
+        "PWM0"
+      ],
+      "/PIM-SAME70/VDC_DIV": [
+        "ADC0.5"
+      ],
       "/PIM/DB_RXD": "UART1",
       "/PIM/DB_TXD": "UART1",
       "/PIM/DV_CTS": "UART2",
@@ -735,6 +861,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
@@ -769,6 +896,7 @@
     "net_format_name": "",
     "page_layout_descr_file": "${SAMPI_LIB_DIR}/KiCAD_Sheet.kicad_wks",
     "plot_directory": "../../Production/Sch/",
+    "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
